@@ -1,0 +1,1013 @@
+{
+ "kavak": {
+  "doi": "10.1016/j.csbj.2016.12.005",
+  "title": "Machine Learning and Data Mining Methods in Diabetes Research",
+  "authors": [
+   "Kavakiotis I",
+   "Tsave O",
+   "Salifoglou A",
+   "Maglaveras N",
+   "Vlahavas I",
+   "Chouvarda I"
+  ],
+  "n_authors": 6,
+  "year": 2017,
+  "venue": "Computational and Structural Biotechnology Journal",
+  "volume": "15",
+  "issue": null,
+  "pages": "104-116",
+  "type": "journal-article",
+  "abstract": "The remarkable advances in biotechnology and health sciences have led to a significant production of data, such as high throughput genetic data and clinical information, generated from large Electronic Health Records (EHRs). To this end, application of machine learning and data mining methods in biosciences is presently, more than ever before, vital and indispensable in efforts to transform intelligently all available information into valuable knowledge. Diabetes mellitus (DM) is defined as a group of metabolic disorders exerting significant pressure on human health worldwide. Extensive research in all aspects of diabetes (diagnosis, etiopathophysiology, therapy, etc.) has led to the generation of huge amounts of data. The aim of the present study is to conduct a systematic review of the applications of machine learning, data mining techniques and tools in the field of diabetes research with respect to a) Prediction and Diagnosis, b) Diabetic Complications, c) Genetic Background and Environment, and e) Health Care and Management with the first category appearing to be the most popular. A wide range of machine learning algorithms were employed. In general, 85% of those used were characterized by supervised learning approaches and 15% by unsupervised ones, and more specifically, association rules. Support vector machines (SVM) arise as the most successful and widely used algorithm. Concerning the type of data, clinical datasets were mainly used. The title applications in the selected articles project the usefulness of extracting valuable knowledge leading to new hypotheses targeting deeper understanding and further investigation in DM.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "chaki": {
+  "doi": "10.1016/j.jksuci.2020.06.013",
+  "title": "Machine learning and artificial intelligence based Diabetes Mellitus detection and self-management: A systematic review",
+  "authors": [
+   "Chaki J",
+   "Thillai Ganesh S",
+   "Cidham S",
+   "Ananda Theertan S"
+  ],
+  "n_authors": 4,
+  "year": 2022,
+  "venue": "Journal of King Saud University - Computer and Information Sciences",
+  "volume": "34",
+  "issue": "6",
+  "pages": "3204-3225",
+  "type": "journal-article",
+  "abstract": "Diabetes Mellitus (DM) is a condition induced by unregulated diabetes that may lead to multi-organ failure in patients. Thanks to advances in machine learning and artificial intelligence, which enables the early detection and diagnosis of DM through an automated process which is more advantageous than a manual diagnosis. Currently, many articles are published on automatic DM detection, diagnosis, and self-management via machine learning and artificial intelligence techniques. This review delivers an analysis of the detection, diagnosis, and self-management techniques of DM from six different facets viz., datasets of DM, pre-processing methods, feature extraction methods, machine learning-based identification, classification, and diagnosis of DM, artificial intelligence-based intelligent DM assistant and performance measures. It also discusses the conclusions of the previous study and the importance of the results of the study. Also, three current research issues in the field of DM detection and diagnosis and self-management and personalization are listed. After a thorough screening procedure, 107 main publications from the Scopus and PubMed repositories are chosen for this study. This review provides a detailed overview of DM detection and self-management techniques which may prove valuable to the community of scientists employed in the area of automatic DM detection and self-management.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "khanam": {
+  "doi": "10.1016/j.icte.2021.02.004",
+  "title": "A comparison of machine learning algorithms for diabetes prediction",
+  "authors": [
+   "Khanam J",
+   "Foo S"
+  ],
+  "n_authors": 2,
+  "year": 2021,
+  "venue": "ICT Express",
+  "volume": "7",
+  "issue": "4",
+  "pages": "432-439",
+  "type": "journal-article",
+  "abstract": "Diabetes is a disease that has no permanent cure; hence early detection is required. Data mining, machine learning (ML) algorithms, and Neural Network (NN) methods are used in diabetes prediction in our research. We used the Pima Indian Diabetes (PID) dataset for our research, collected from the UCI Machine Learning Repository. The dataset contains information about 768 patients and their corresponding nine unique attributes. We used seven ML algorithms on the dataset to predict diabetes. We found that the model with Logistic Regression (LR) and Support Vector Machine (SVM) works well on diabetes prediction. We built the NN model with a different hidden layer with various epochs and observed the NN with two hidden layers provided 88.6% accuracy.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "sisodia": {
+  "doi": "10.1016/j.procs.2018.05.122",
+  "title": "Prediction of Diabetes using Classification Algorithms",
+  "authors": [
+   "Sisodia D",
+   "Sisodia D"
+  ],
+  "n_authors": 2,
+  "year": 2018,
+  "venue": "Procedia Computer Science",
+  "volume": "132",
+  "issue": null,
+  "pages": "1578-1585",
+  "type": "journal-article",
+  "abstract": "Diabetes is considered as one of the deadliest and chronic diseases which causes an increase in blood sugar. Many complications occur if diabetes remains untreated and unidentified. The tedious identifying process results in visiting of a patient to a diagnostic center and consulting doctor. But the rise in machine learning approaches solves this critical problem. The motive of this study is to design a model which can prognosticate the likelihood of diabetes in patients with maximum accuracy. Therefore three machine learning classification algorithms namely Decision Tree, SVM and Naive Bayes are used in this experiment to detect diabetes at an early stage. Experiments are performed on Pima Indians Diabetes Database (PIDD) which is sourced from UCI machine learning repository. The performances of all the three algorithms are evaluated on various measures like Precision, Accuracy, F-Measure, and Recall. Accuracy is measured over correctly and incorrectly classified instances. Results obtained show Naive Bayes outperforms with the highest accuracy of 76.30% comparatively other algorithms. These results are verified using Receiver Operating Characteristic (ROC) curves in a proper and systematic manner.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "kaur": {
+  "doi": "10.1016/j.aci.2018.12.004",
+  "title": "Predictive modelling and analytics for diabetes using a machine learning approach",
+  "authors": [
+   "Kaur H",
+   "Kumari V"
+  ],
+  "n_authors": 2,
+  "year": 2020,
+  "venue": "Applied Computing and Informatics",
+  "volume": "18",
+  "issue": "1/2",
+  "pages": "90-100",
+  "type": "journal-article",
+  "abstract": "Diabetes is a major metabolic disorder which can affect entire body system adversely. Undiagnosed diabetes can increase the risk of cardiac stroke, diabetic nephropathy and other disorders. All over the world millions of people are affected by this disease. Early detection of diabetes is very important to maintain a healthy life. This disease is a reason of global concern as the cases of diabetes are rising rapidly. Machine learning (ML) is a computational method for automatic learning from experience and improves the performance to make more accurate predictions. In the current research we have utilized machine learning technique in Pima Indian diabetes dataset to develop trends and detect patterns with risk factors using R data manipulation tool. To classify the patients into diabetic and non-diabetic we have developed and analyzed five different predictive models using R data manipulation tool. For this purpose we used supervised machine learning algorithms namely linear kernel support vector machine (SVM-linear), radial basis function (RBF) kernel support vector machine, k -nearest neighbour ( k -NN), artificial neural network (ANN) and multifactor dimensionality reduction (MDR).",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "miao": {
+  "doi": "10.1145/3463914.3463922",
+  "title": "Using Machine Learning Algorithms to Predict Diabetes Mellitus Based on PIMA Indians Diabetes Dataset",
+  "authors": [
+   "Miao Y"
+  ],
+  "n_authors": 1,
+  "year": 2021,
+  "venue": "2021 the 5th International Conference on Virtual and Augmented Reality Simulations",
+  "volume": null,
+  "issue": null,
+  "pages": "47-53",
+  "type": "proceedings-article",
+  "abstract": "Currently, there are still a great amount of people suffering from diabetes mellitus (DM). Although advanced facilities and technologies could support the diagnosis of diabetes, complicated procedures are not supposed to be neglected. Actually, the causes of diabetes are various, involving glucose, blood pressure, skin thickness, insulin, BMI and age. Hence, in this study, a variety of machine learning algorithms are applied on PIMA Indians Diabetes dataset (PIDD) to construct the prediction model with higher accuracy. Once the model could be trained with better accuracy, it is possible to diagnose diabetes or even other ailments in the future. According to the results of this research, glucose, insulin and BMI have a higher correlation with diabetes. By comparison, the support vector machine (SVM) will obtain the highest accuracy of 85.06% based on the standardized data. After adjustment, this SVM still predicts the diagnosis of DM with the highest accuracy of 87.01%. In this paper, it seems that the Support Vector Classifier is demonstrated to obtain the highest accuracy for PIMA Indians Diabetes dataset (PIDD).",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "kirbas": {
+  "doi": "10.17694/bajece.1577929",
+  "title": "Leveraging SHAP for Interpretable Diabetes Prediction: A Study of Machine Learning Models on the Pima Indians Diabetes Dataset",
+  "authors": [
+   "Kırbaş İ",
+   "Çifci A"
+  ],
+  "n_authors": 2,
+  "year": 2025,
+  "venue": "Balkan Journal of Electrical and Computer Engineering",
+  "volume": "13",
+  "issue": "2",
+  "pages": "128-139",
+  "type": "journal-article",
+  "abstract": "This paper investigates the application of machine learning (ML) models for predicting diabetes using the Pima Indians Diabetes Database, with a focus on enhancing model interpretability through the use of SHapley Additive exPlanations (SHAP). The study evaluates eight ML models, including Adaptive Boosting (AdaBoost), k-Nearest Neighbors (k-NN), Logistic Regression (LR), Multi-layer Perceptron (MLP), Naive Bayes (NB), Random Forest (RF), Support Vector Machine (SVM), and eXtreme Gradient Boosting (XGBoost), utilizing both test/train split and 10-fold cross-validation methods. The RF model demonstrated superior performance, achieving an accuracy of 82% and an F1-score of 0.83 in the test/train split, and an accuracy of 83% and an F1-score of 0.84 in the 10-fold cross-validation. SHAP analysis was employed to identify the most influential predictors, revealing that glucose, BMI, pregnancies, and insulin levels are the key factors in diabetes prediction, aligning with established clinical markers. Additionally, the use of the Synthetic Minority Over-sampling TEchnique (SMOTE) for class balancing and data scaling contributes to robust model performance. The study emphasizes the necessity for interpretable ML in healthcare, proposing SHAP as a valuable tool for bridging predictive accuracy and clinical transparency in diabetes diagnostics.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "rfegru": {
+  "doi": "10.1038/s41598-024-82420-9",
+  "title": "A novel RFE-GRU model for diabetes classification using PIMA Indian dataset",
+  "authors": [
+   "Shams M",
+   "Tarek Z",
+   "Elshewey A"
+  ],
+  "n_authors": 3,
+  "year": 2025,
+  "venue": "Scientific Reports",
+  "volume": "15",
+  "issue": "1",
+  "pages": "982",
+  "type": "journal-article",
+  "abstract": "Abstract Diabetes is a long-term condition characterized by elevated blood sugar levels. It can lead to a variety of complex disorders such as stroke, renal failure, and heart attack. Diabetes requires the most machine learning help to diagnose diabetes illness at an early stage, as it cannot be treated and adds significant complications to our health-care system. The diabetes PIMA Indian dataset (PIDD) was used for classification in several studies, it includes 768 instances and 9 features; eight of the features are the predictors, and one feature is the target. Firstly, we performed the preprocessing stage that includes mean imputation and data normalization. Afterwards, we trained the extracted features using various types of Machine Learning (ML); Random Forest (RF), Logistic Regression (LR), K-Nearest neighbor (KNN), Naïve Bayes (NB), Histogram Gradient Boost (HGB), and Gated Recurrent Unit (GRU) models. To achieve the classification for the PIDD, a new model called Recursive Feature Elimination-GRU (RFE-GRU) is proposed in this paper. RFE is vital for selecting features in the training dataset that are most important in predicting the target variable. While the GRU handles the challenge of vanishing and inflating gradient of the features results from RFE. Several predictive evaluation metrics, including precision, recall, F1-score, accuracy, and Area Under the Curve (AUC) achieved 90.50%, 90.70%, 90.50%, 90.70%, 0.9278, respectively, to verify and validate the execution of the RFE-GRU model. The comparative results showed that the RFE-GRU model is better than other classification models.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "msys": {
+  "doi": "10.1007/s10916-018-0940-7",
+  "title": "Accurate Diabetes Risk Stratification Using Machine Learning: Role of Missing Value and Outliers",
+  "authors": [
+   "Maniruzzaman M",
+   "Rahman M",
+   "Al-MehediHasan M",
+   "Suri H",
+   "Abedin M",
+   "El-Baz A"
+  ],
+  "n_authors": 7,
+  "year": 2018,
+  "venue": "Journal of Medical Systems",
+  "volume": "42",
+  "issue": "5",
+  "pages": "92",
+  "type": "journal-article",
+  "abstract": "Diabetes mellitus is a group of metabolic diseases in which blood sugar levels are too high. About 8.8% of the world was diabetic in 2017. It is projected that this will reach nearly 10% by 2045. The major challenge is that when machine learning-based classifiers are applied to such data sets for risk stratification, leads to lower performance. Thus, our objective is to develop an optimized and robust machine learning (ML) system under the assumption that missing values or outliers if replaced by a median configuration will yield higher risk stratification accuracy. This ML-based risk stratification is designed, optimized and evaluated, where: (i) the features are extracted and optimized from the six feature selection techniques (random forest, logistic regression, mutual information, principal component analysis, analysis of variance, and Fisher discriminant ratio) and combined with ten different types of classifiers (linear discriminant analysis, quadratic discriminant analysis, naïve Bayes, Gaussian process classification, support vector machine, artificial neural network, Adaboost, logistic regression, decision tree, and random forest) under the hypothesis that both missing values and outliers when replaced by computed medians will improve the risk stratification accuracy. Pima Indian diabetic dataset (768 patients: 268 diabetic and 500 controls) was used. Our results demonstrate that on replacing the missing values and outliers by group median and median values, respectively and further using the combination of random forest feature selection and random forest classification technique yields an accuracy, sensitivity, specificity, positive predictive value, negative predictive value and area under the curve as: 92.26%, 95.96%, 79.72%, 91.14%, 91.20%, and 0.93, respectively. This is an improvement of 10% over previously developed techniques published in literature. The system was validated for its stability and reliability. RF-based model showed the best performance when outliers are replaced by median values.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "collins2011": {
+  "doi": "10.1186/1741-7015-9-103",
+  "title": "Developing risk prediction models for type 2 diabetes: a systematic review of methodology and reporting",
+  "authors": [
+   "Collins G",
+   "Mallett S",
+   "Omar O",
+   "Yu L"
+  ],
+  "n_authors": 4,
+  "year": 2011,
+  "venue": "BMC Medicine",
+  "volume": "9",
+  "issue": "1",
+  "pages": "103",
+  "type": "journal-article",
+  "abstract": "BACKGROUND: The World Health Organisation estimates that by 2030 there will be approximately 350 million people with type 2 diabetes. Associated with renal complications, heart disease, stroke and peripheral vascular disease, early identification of patients with undiagnosed type 2 diabetes or those at an increased risk of developing type 2 diabetes is an important challenge. We sought to systematically review and critically assess the conduct and reporting of methods used to develop risk prediction models for predicting the risk of having undiagnosed (prevalent) or future risk of developing (incident) type 2 diabetes in adults. METHODS: We conducted a systematic search of PubMed and EMBASE databases to identify studies published before May 2011 that describe the development of models combining two or more variables to predict the risk of prevalent or incident type 2 diabetes. We extracted key information that describes aspects of developing a prediction model including study design, sample size and number of events, outcome definition, risk predictor selection and coding, missing data, model-building strategies and aspects of performance. RESULTS: Thirty-nine studies comprising 43 risk prediction models were included. Seventeen studies (44%) reported the development of models to predict incident type 2 diabetes, whilst 15 studies (38%) described the derivation of models to predict prevalent type 2 diabetes. In nine studies (23%), the number of events per variable was less than ten, whilst in fourteen studies there was insufficient information reported for this measure to be calculated. The number of candidate risk predictors ranged from four to sixty-four, and in seven studies it was unclear how many risk predictors were considered. A method, not recommended to select risk predictors for inclusion in the multivariate model, using statistical significance from univariate screening was carried out in eight studies (21%), whilst the selection procedure was unclear in ten studies (26%). Twenty-one risk prediction models (49%) were developed by categorising all continuous risk predictors. The treatment and handling of missing data were not reported in 16 studies (41%). CONCLUSIONS: We found widespread use of poor methods that could jeopardise model development, including univariate pre-screening of variables, categorisation of continuous risk predictors and poor handling of missing data. The use of poor methods affects the reliability of the prediction model and ultimately compromises the accuracy of the probability estimates of having undiagnosed type 2 diabetes or the predicted risk of developing type 2 diabetes. In addition, many studies were characterised by a generally poor level of reporting, with many key details to objectively judge the usefulness of the models often omitted.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "noble2011": {
+  "doi": "10.1136/bmj.d7163",
+  "title": "Risk models and scores for type 2 diabetes: systematic review",
+  "authors": [
+   "Noble D",
+   "Mathur R",
+   "Dent T",
+   "Meads C",
+   "Greenhalgh T"
+  ],
+  "n_authors": 5,
+  "year": 2011,
+  "venue": "BMJ",
+  "volume": "343",
+  "issue": "nov28 1",
+  "pages": "d7163-d7163",
+  "type": "journal-article",
+  "abstract": "OBJECTIVE: To evaluate current risk models and scores for type 2 diabetes and inform selection and implementation of these in practice. DESIGN: Systematic review using standard (quantitative) and realist (mainly qualitative) methodology. Inclusion criteria Papers in any language describing the development or external validation, or both, of models and scores to predict the risk of an adult developing type 2 diabetes. DATA SOURCES: Medline, PreMedline, Embase, and Cochrane databases were searched. Included studies were citation tracked in Google Scholar to identify follow-on studies of usability or impact. DATA EXTRACTION: Data were extracted on statistical properties of models, details of internal or external validation, and use of risk scores beyond the studies that developed them. Quantitative data were tabulated to compare model components and statistical properties. Qualitative data were analysed thematically to identify mechanisms by which use of the risk model or score might improve patient outcomes. RESULTS: 8864 titles were scanned, 115 full text papers considered, and 43 papers included in the final sample. These described the prospective development or validation, or both, of 145 risk prediction models and scores, 94 of which were studied in detail here. They had been tested on 6.88 million participants followed for up to 28 years. Heterogeneity of primary studies precluded meta-analysis. Some but not all risk models or scores had robust statistical properties (for example, good discrimination and calibration) and had been externally validated on a different population. Genetic markers added nothing to models over clinical and sociodemographic factors. Most authors described their score as \"simple\" or \"easily implemented,\" although few were specific about the intended users and under what circumstances. Ten mechanisms were identified by which measuring diabetes risk might improve outcomes. Follow-on studies that applied a risk score as part of an intervention aimed at reducing actual risk in people were sparse. CONCLUSION: Much work has been done to develop diabetes risk models and scores, but most are rarely used because they require tests not routinely available or they were developed without a specific user or clear use in mind. Encouragingly, recent research has begun to tackle usability and the impact of diabetes risk scores. Two promising areas for further research are interventions that prompt lay people to check their own diabetes risk and use of risk scores on population datasets to identify high risk \"hotspots\" for targeted public health interventions.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "jaimlnn": {
+  "doi": "10.55529/jaimlnn.62.15.31",
+  "title": "Equally accurate, differently explained: Stability of permutation feature importance across machine learning classifiers on clinical tabular data",
+  "authors": [
+   "Dalal S",
+   "Akbar M"
+  ],
+  "n_authors": 2,
+  "year": 2026,
+  "venue": "Journal of Artificial Intelligence Machine Learning and Neural Network",
+  "volume": null,
+  "issue": null,
+  "pages": "15",
+  "type": "journal-article",
+  "abstract": "Feature-importance explanations are increasingly used to justify machine learning (ML) models in clinical decision support, yet they are usually reported from a single fitted model without evidence that they would recur if the model were refitted. This study quantifies the stability of permutation feature importance across five widely used classifiers, namely logistic regression (LR), radial-basis support vector machine (SVM), random forest (RF), histogram gradient boosting (GB) and a multilayer perceptron (MLP), on three public clinical tabular datasets: Wisconsin diagnostic breast cancer (WDBC), Pima diabetes and Cleveland heart disease. Using 10 × 5-fold stratified cross-validation (50 fits per model and dataset), we measured discrimination and calibration and computed AUC-based permutation importance on every held-out fold. Stability was summarised with pairwise Spearman correlation, top-5 Jaccard overlap and top-feature recurrence. On WDBC, LR, SVM, RF and GB were statistically indistinguishable in AUC (0.990–0.995; corrected resampled t-test p ≥ 0.089), yet their explanation stability ranged from 0.32 (RF) to 0.61 (SVM), these differences were significant (Holm-adjusted Wilcoxon p &lt; 0.001), and the models disagreed on the most important feature. Stability was highest where predictors were few and weakly correlated (Pima, 0.70–0.87, with glucose ranked first in every fit of four models) and lowest where many near-redundant features were present. Reducing the training data to 25% lowered AUC by at most 0.03 for the four well-behaved models but reduced stability markedly (e.g., 0.90 to 0.68 for LR on Pima), whereas degenerate MLP fits produced spuriously stable importance. Predictive accuracy therefore does not certify explanation reliability, and importance-based explanations should be reported together with resampling-based stability estimates.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "zenodo_shap": {
+  "doi": "10.5281/zenodo.23047034",
+  "title": "Evaluating the Stability of SHAP Interpretations in Machine Learning Models Under Class Imbalance for Diabetes Prediction",
+  "authors": [],
+  "n_authors": 0,
+  "year": 2024,
+  "venue": null,
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "type": null,
+  "abstract": "Class imbalance is a significant challenge in predictive modeling, particularly in healthcare domains like diabetes prediction, where the number of positive cases (e.g., patients with diabetes) is often far smaller than negative cases. Most research has focused on improving the predictive accuracy of machine learning models under such conditions. However, the effect of class imbalance on the interpretability of these models, especially using techniques like SHapley Additive exPlanations (SHAP), remains underexplored. This study addresses this gap by evaluating how increasing class imbalance impacts the stability of SHAP values across four machine learning models SVM, kNN, Decision Trees, and XGBoost using the Pima Indian Diabetes dataset. We employed the Smote-Tomek technique to generate datasets with varying imbalance ratios and introduced the Coefficient of Variation (CV) as a metric to quantify the stability of SHAP feature importance values. The results demonstrate that while XGBoost maintains superior predictive performance under extreme class imbalance, it suffers from reduced SHAP stability. Conversely, SVM displays more stable SHAP values but with slightly lower predictive accuracy, making it more suitable in contexts where interpretability is crucial. Models like kNN and Decision Trees perform poorly in both predictive accuracy and interpretability as class imbalance worsens. This research contributes to the ongoing discussion of balancing predictive accuracy and model transparency in highly imbalanced datasets, with a particular focus on applications in healthcare, where trust in the model's decision-making process is essential.",
+  "abstract_source": "openalex",
+  "crossref_ok": false
+ },
+ "leakfree_rs": {
+  "doi": "10.21203/rs.3.rs-9678084/v1",
+  "title": "A Leakage-Free and Statistically Validated Machine Learning Evaluation Framework for Diabetes Risk Prediction Across Multiple Datasets",
+  "authors": [
+   "Soomro A",
+   "Ata O"
+  ],
+  "n_authors": 2,
+  "year": 2026,
+  "venue": "",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "type": "posted-content",
+  "abstract": "Abstract Machine learning models for diabetes classification frequently encounter issues with data leakage and inconsistent validation methodologies, rendering performance evaluations unreliable. This study presents a machine learning framework that mitigates data leakage and integrates fold-contained pre-processing with multi-seed stratified 10-fold cross-validation to guarantee fair evaluation. We examined six models: Logistic Regression, Random Forest, Feedforward Neural Network, Backpropagation Neural Network, General Regression Neural Network (GRNN), and Artificial Bee Colony Optimised Feedforward Neural Network. We conducted analyses on the Pima Indians Diabetes Dataset and the Early-Stage Diabetes Risk Dataset. In Dataset 1, models attained ROC–AUC values ranging from 0.76 to 0.84, with the GRNN model demonstrating the highest performance (AUC = 0.837 ± 0.002). Logistic Regression (AUC = 0.832) and Random Forest (AUC = 0.829) produced similar outcomes. Dataset 2 exhibited superior performance, with GRNN achieving an AUC of 0.998, followed by ABC-FFNN (AUC = 0.991) and FFNN (AUC = 0.982). The calibration results indicated that GRNN excelled in probability estimation. Statistical analysis confirmed notable performance differences among selected model pairs. The proposed framework enhances the reliability and reproducibility of diabetes classification research, facilitating a more comprehensive machine learning evaluation in healthcare environments.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "etasr": {
+  "doi": "10.48084/etasr.14155",
+  "title": "A Sequential Data Preprocessing Pipeline for Diabetes Prediction: A Data Leakage Prevention and Dual-Validation Approach",
+  "authors": [
+   "AbdulAbbas A",
+   "Alkanany R",
+   "Al-Nuaimi Y",
+   "Al-Hamdawee Z"
+  ],
+  "n_authors": 4,
+  "year": 2025,
+  "venue": "Engineering, Technology &amp; Applied Science Research",
+  "volume": "15",
+  "issue": "6",
+  "pages": "30059-30066",
+  "type": "journal-article",
+  "abstract": "Machine learning approaches for diabetes prediction face methodological challenges, including data leakage from preprocessing before data splitting, inconsistent handling of missing values, and class imbalance with varying validation methods. This study presents a systematic approach that prevents data leakage and establishes standardized benchmarks for diabetes prediction. Using the PIMA Indian Diabetes Dataset (768 patients), this study applied a preprocessing pipeline: MICE for missing values (652 missing, 9.43% of data), SMOTE for class balance (500 nondiabetic vs 268 diabetic cases), and z-score normalization for feature scaling. Two feature selection methods identified six important clinical variables: Glucose, Pregnancies, Glucose_BMI, Glucose_Age, BMI, and BloodPressure. Dual validation approaches were employed, single split (80:20) and 5-fold cross-validation, to compare five machine learning algorithms: Random Forest (RF), Multi-Layer Perceptron (MLP), XGBoost, Support Vector Machine (SVM), and Logistic Regression (LR). Experimental results demonstrated that RF achieved the highest accuracy (79.79%) in single split testing, whereas MLP performed best in cross-validation (77.81% accuracy, 84.43% ROC-AUC). All algorithms achieved ROC-AUC scores above 0.80. Cross-validation analysis revealed that RF showed consistent performance across data splits, whereas MLP demonstrated better adaptability to different data conditions.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "thresh_math": {
+  "doi": "10.3390/math14183421",
+  "title": "A Systematic Analysis of Oversampling Intensity and Decision Thresholds in Imbalanced Medical Classification Under Leakage-Free Cross-Validation",
+  "authors": [
+   "Lu K",
+   "Wu T"
+  ],
+  "n_authors": 2,
+  "year": 2026,
+  "venue": "Mathematics",
+  "volume": "14",
+  "issue": "18",
+  "pages": "3421",
+  "type": "journal-article",
+  "abstract": "Class imbalance in medical classification can substantially affect model performance, particularly when resampling intensity and decision threshold are considered separately. This study systematically investigates their joint effects using the Pima Indians Diabetes, Heart Failure, and Thoracic Surgery datasets. Five classifiers were evaluated with Baseline, SMOTE, and ADASYN under multiple oversampling intensities and decision thresholds ranging from 0.30 to 0.70 using leakage-free, repeated, stratified 10-fold cross-validation with five repetitions. The best mean F1-scores were 0.6890 for PIMA, 0.7684 for Heart Failure, and 0.3375 for Thoracic Surgery, with the preferred threshold and oversampling intensity differing across datasets. A mixed-effects analysis confirmed a significant interaction between oversampling intensity and decision threshold (χ2(16) = 141.77, p &lt; 0.001). In contrast, the matched difference between SMOTE and ADASYN was negligible (ΔF1 = 0.0009, p = 0.663). Thresholds below 0.50 were particularly beneficial for PIMA and Thoracic Surgery, whereas Heart Failure performed best near 0.50. Oversampling also tended to increase Brier scores, indicating that improvements in threshold-specific F1-score did not necessarily correspond to better probability calibration. These findings demonstrate that dataset-specific joint evaluation of oversampling intensity and decision threshold is more informative than selecting a resampling method in isolation.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "calib_first_rs": {
+  "doi": "10.21203/rs.3.rs-8627838/v1",
+  "title": "A Physiology-Aware, Orthogonalized, Calibration-First Machine-Learning Diabetes Risk Model Robust to Population Shift",
+  "authors": [
+   "Akinwumi P",
+   "Qian M",
+   "Babatope O",
+   "Olorunsogbon T",
+   "Ogunleye R"
+  ],
+  "n_authors": 5,
+  "year": 2026,
+  "venue": "",
+  "volume": null,
+  "issue": null,
+  "pages": null,
+  "type": "posted-content",
+  "abstract": "Abstract Type 2 diabetes remains a global health burden, with rising prevalence despite extensive public health campaigns and clinical interventions. Traditional risk estimation tools, such as the American Diabetes Association (ADA) risk test and rule-based scoring systems, have long been used for early identification but often lack calibration, interpretability, or adaptability across populations. More recently, machine learning (ML) approaches have attempted to improve predictive accuracy using complex ensemble models or deep learning architectures. However, these methods frequently sacrifice interpretability and calibration, often underperforming when externally validated or applied under distributional shifts. Addressing these limitations, we propose a calibration-cantered, physiology-aware, and parsimonious logistic regression model using five core predictors: age, BMI, glucose, insulin, and pregnancies. Our approach incorporates novel orthogonalization of insulin from glucose to manage collinearity and prioritizes calibrated probability estimates using Brier score minimization. Experimental evaluation across multiple ML baselines (e.g., Logistics Regression, Random Forest, XGBoost, Gradient Boosting) demonstrated that our model achieved comparable or superior performance (Logistics Regression: AUROC = 0.836, AUPRC = 0.714, Brier = 0.166) while maintaining excellent calibration and generalizability under covariate shift simulations. Notably, our model’s simplicity and transparency make it ideal for clinical deployment, offering interpretable and actionable insights into individual risk. Compared to prior models, ours provides a rare balance of statistical rigor, clinical relevance, and resilience to population shift. These results reinforce the need to prioritize model trustworthiness over complexity and point toward a new paradigm of machine learning in healthcare, one grounded in physiological understanding, probabilistic honesty, and real-world usability.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "pima_survey": {
+  "doi": "10.30880/jscdm.2025.06.01.001",
+  "title": "Diabetes Prediction Through Classification Using Pima Dataset: Survey and Evaluation",
+  "authors": [
+   "Al-Ahliyya Amman University",
+   "Abu-Shareha A",
+   "Abualhaj M",
+   "Al-Ahliyya Amman University",
+   "Alsharaiah M",
+   "Al-Ahliyya Amman University"
+  ],
+  "n_authors": 10,
+  "year": 2025,
+  "venue": "Journal of Soft Computing and Data Mining",
+  "volume": "6",
+  "issue": "1",
+  "pages": null,
+  "type": "journal-article",
+  "abstract": "Diabetes prediction using machine learning techniques has been extensively investigated in the literature, resulting in diverse prediction and evaluation approaches.This diversity often leads to inconsistent comparisons between these approaches.This paper offers a comprehensive survey of state-of-the-art diabetes prediction through classification, encompassing various preprocessing techniques and machine learning methods.As such, the primary objectives of this paper are as follows: 1) To analyze the performance of existing machine learning methods and trace the advancements in diabetes prediction outcomes over time.2) To establish a baseline for evaluating and benchmarking different diabetes prediction approaches.3) To assess the performance of common machine learning methods.4) To propose future research directions to enhance diabetes prognosis methodologies further.5) To provide state-of-the-art results for the performance of the common machine learning methods on the Pima dataset.The review outcomes show significant variations in the existing prediction and evaluation approaches.The results of the proposed evaluation approach showed that scaling, feature selection, and over-sampling improve the results of the prediction approaches.Besides, the results of the machine learning techniques varied, with the best results mostly achieved by the random forest algorithm.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "aposta": {
+  "doi": "10.23900/ra.v24i114.1893",
+  "title": "Predictive modelling of diabetes risk using machine learning: a cross-dataset, statistically validated comparison of logistic regression, random forest, XGBoost, and SVM",
+  "authors": [
+   "Hassan M",
+   "Khanum T",
+   "Islam A",
+   "Khan M",
+   "Amjad S",
+   "Khan S"
+  ],
+  "n_authors": 7,
+  "year": 2026,
+  "venue": "Aposta: Revista de Ciencias Sociales",
+  "volume": "24",
+  "issue": "114",
+  "pages": "e1893",
+  "type": "journal-article",
+  "abstract": "Diabetes mellitus is one of the most prevalent chronic metabolic disorders worldwide, and its early identification remains a critical challenge for healthcare systems. This study investigates the application of supervised machine learning (ML) techniques for predictive modelling of diabetes risk, with particular emphasis on statistical rigor and cross-dataset generalisability. Four classification algorithms — Logistic Regression, Random Forest, Extreme Gradient Boosting (XGBoost), and Support Vector Machine (SVM) — were trained on the Pima Indians Diabetes dataset following a pipeline of missing-value imputation, feature scaling, and class-balancing via the Synthetic Minority Over-sampling Technique (SMOTE), with scaling and resampling nested strictly inside each cross-validation fold to prevent data leakage. An initial single 80/20 train-test split suggested XGBoost as the top performer (accuracy = 75.3%, AUC = 0.824). However, a subsequent, more statistically robust evaluation using ten-times-repeated, five-fold stratified cross-validation (50 total folds) revealed a different picture: Logistic Regression achieved the highest mean AUC (0.835 ± 0.028), followed by Random Forest (0.828 ± 0.027) and SVM (0.827 ± 0.027), while XGBoost had the lowest mean AUC (0.812 ± 0.027). Paired Wilcoxon signed-rank tests on per-fold AUC scores confirmed that XGBoost performed significantly worse than each of the other three models (all p &lt; 0.001). SHapley Additive exPlanations (SHAP) analysis of the XGBoost model confirmed plasma glucose concentration, BMI, and age as the dominant predictors of diabetes risk. To assess external generalisability, the same pipeline was independently re-applied to a stratified 8,000-record subsample of the CDC Behavioral Risk Factor Surveillance System (BRFSS) 2015 dataset (253,680 records; a much larger and demographically distinct population with a different feature set). On this independent dataset, self-reported general health status, BMI, and age again emerged as the strongest predictors, corroborating the Pima-derived findings despite minimal feature overlap between the two datasets. A fully nested cross-validation analysis confirmed that XGBoost's comparative disadvantage on the small Pima dataset was not an artefact of hyperparameter tuning bias. Critically, when the same models were retrained on the complete, full-scale BRFSS dataset (253,680 records) rather than a small subsample, this ranking reversed: XGBoost achieved the highest AUC (0.824), ahead of Logistic Regression (0.819) and Random Forest (0.797). This dataset-size-dependent reversal, observed consistently across a small clinical dataset, a small survey subsample, and a large-scale survey dataset, indicates that the relative advantage of model complexity is governed by the scale of available training data rather than being fixed for a given prediction task, and it underscores the importance of repeated cross-validation, nested hyperparameter validation, and external validation at multiple sample sizes — rather than a single train-test split on a single dataset — when comparing machine learning models for clinical risk prediction.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "reliab_aware": {
+  "doi": "10.22214/ijraset.2026.84701",
+  "title": "A Reliability-Aware and Interpretable Machine Learning Framework for Diabetes Prediction Using Structured Clinical Data",
+  "authors": [
+   "V R",
+   "Sasirekha D"
+  ],
+  "n_authors": 2,
+  "year": 2026,
+  "venue": "International Journal for Research in Applied Science and Engineering Technology",
+  "volume": "14",
+  "issue": "8",
+  "pages": "1168-1183",
+  "type": "journal-article",
+  "abstract": "Diabetes prediction plays an important role in re-ducing long-term health risks by enabling early medical interven-tion. Although machine learning models have been widely applied to this task, many existing studies emphasise predictive accuracy while giving comparatively little attention to the reliability, interpretability, and stability of the resulting decisions. This paper develops a reliability-aware and interpretable machine learning framework for diabetes prediction from structured clinical data. Three complementary models—Logistic Regression, Random Forest, and Extreme Gradient Boosting (XGBoost)—are trained on the Pima Indians Diabetes dataset so that both simple linear and complex non-linear relationships are captured. Beyond conventional discrimination metrics, the reliability of the predicted probabilities is quantified using the Brier score and reliability (calibration) diagrams. Interpretability is addressed with SHapley Additive exPlanations (SHAP) at both the global (cohort) and local (individual patient) levels. Because different models frequently emphasise different predictors, we formalise a Feature Consistency Index (FCI) that quantifies the cross-model agreement of SHAP-derived feature importance and combines it with normalised importance into a single ranking score. Finally, a perturbation-based robustness analysis measures the sensitivity of each model’s output to small changes in the input record. Experi-mentally, XGBoost achieves the highest discrimination (accuracy 0.7597, ROC-AUC 0.8374), whereas Random Forest attains the best-calibrated probabilities (Brier score 0.1646), demonstrating that discrimination and reliability are not interchangeable. The FCI identifies Glucose and BMI as simultaneously the most influential and the most consistently attributed predictors, while Blood Pressure and Skin Thickness are both weak and unstable. Under a 5% Gaussian perturbation of a representative patient record, the linear and bagged models shift by less than 0.01 in predicted probability, whereas the boosted model shifts by 0.0386, revealing an accuracy–stability trade-off that a purely accuracy-driven evaluation would not expose",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "davis": {
+  "doi": "10.1145/1143844.1143874",
+  "title": "The relationship between Precision-Recall and ROC curves",
+  "authors": [
+   "Davis J",
+   "Goadrich M"
+  ],
+  "n_authors": 2,
+  "year": 2006,
+  "venue": "Proceedings of the 23rd international conference on Machine learning  - ICML '06",
+  "volume": null,
+  "issue": null,
+  "pages": "233-240",
+  "type": "proceedings-article",
+  "abstract": "Receiver Operator Characteristic (ROC) curves are commonly used to present results for binary decision problems in machine learning. However, when dealing with highly skewed datasets, Precision-Recall (PR) curves give a more informative picture of an algorithm's performance. We show that a deep connection exists between ROC space and PR space, such that a curve dominates in ROC space if and only if it dominates in PR space. A corollary is the notion of an achievable PR curve, which has properties much like the convex hull in ROC space; we show an efficient algorithm for computing this curve. Finally, we also note differences in the two types of curves are significant for algorithm design. For example, in PR space it is incorrect to linearly interpolate between points. Furthermore, algorithms that optimize the area under the ROC curve are not guaranteed to optimize the area under the PR curve.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "saito": {
+  "doi": "10.1371/journal.pone.0118432",
+  "title": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+  "authors": [
+   "Saito T",
+   "Rehmsmeier M"
+  ],
+  "n_authors": 2,
+  "year": 2015,
+  "venue": "PLOS ONE",
+  "volume": "10",
+  "issue": "3",
+  "pages": "e0118432",
+  "type": "journal-article",
+  "abstract": "Binary classifiers are routinely evaluated with performance measures such as sensitivity and specificity, and performance is frequently illustrated with Receiver Operating Characteristics (ROC) plots. Alternative measures such as positive predictive value (PPV) and the associated Precision/Recall (PRC) plots are used less frequently. Many bioinformatics studies develop and evaluate classifiers that are to be applied to strongly imbalanced datasets in which the number of negatives outweighs the number of positives significantly. While ROC plots are visually appealing and provide an overview of a classifier's performance across a wide range of specificities, one can ask whether ROC plots could be misleading when applied in imbalanced classification scenarios. We show here that the visual interpretability of ROC plots in the context of imbalanced datasets can be deceptive with respect to conclusions about the reliability of classification performance, owing to an intuitive but wrong interpretation of specificity. PRC plots, on the other hand, can provide the viewer with an accurate prediction of future classification performance due to the fact that they evaluate the fraction of true positives among positive predictions. Our findings have potential implications for the interpretation of a large number of studies that use ROC plots on imbalanced datasets.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "vancalster2019": {
+  "doi": "10.1186/s12916-019-1466-7",
+  "title": "Calibration: the Achilles heel of predictive analytics",
+  "authors": [
+   "On behalf of Topic Group ‘Evaluating diagnostic tests and prediction models’ of the STRATOS initiative",
+   "Van Calster B",
+   "McLernon D",
+   "van Smeden M",
+   "Wynants L",
+   "Steyerberg E"
+  ],
+  "n_authors": 6,
+  "year": 2019,
+  "venue": "BMC Medicine",
+  "volume": "17",
+  "issue": "1",
+  "pages": "230",
+  "type": "journal-article",
+  "abstract": "Abstract Background The assessment of calibration performance of risk prediction models based on regression or more flexible machine learning algorithms receives little attention. Main text Herein, we argue that this needs to change immediately because poorly calibrated algorithms can be misleading and potentially harmful for clinical decision-making. We summarize how to avoid poor calibration at algorithm development and how to assess calibration at algorithm validation, emphasizing balance between model complexity and the available sample size. At external validation, calibration curves require sufficiently large samples. Algorithm updating should be considered for appropriate support of clinical practice. Conclusion Efforts are required to avoid poor calibration when developing prediction models, to evaluate calibration when validating models, and to update models when indicated. The ultimate aim is to optimize the utility of predictive analytics for shared decision-making and patient counseling.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "vancalster2016": {
+  "doi": "10.1016/j.jclinepi.2015.12.005",
+  "title": "A calibration hierarchy for risk models was defined: from utopia to empirical data",
+  "authors": [
+   "Van Calster B",
+   "Nieboer D",
+   "Vergouwe Y",
+   "De Cock B",
+   "Pencina M",
+   "Steyerberg E"
+  ],
+  "n_authors": 6,
+  "year": 2016,
+  "venue": "Journal of Clinical Epidemiology",
+  "volume": "74",
+  "issue": null,
+  "pages": "167-176",
+  "type": "journal-article",
+  "abstract": "Calibrated risk models are vital for valid decision support. We define four levels of calibration and describe implications for model development and external validation of predictions. We present results based on simulated data sets. A common definition of calibration is \"having an event rate of R% among patients with a predicted risk of R%,\" which we refer to as \"moderate calibration.\" Weaker forms of calibration only require the average predicted risk (mean calibration) or the average prediction effects (weak calibration) to be correct. \"Strong calibration\" requires that the event rate equals the predicted risk for every covariate pattern. This implies that the model is fully correct for the validation setting. We argue that this is unrealistic: the model type may be incorrect, the linear predictor is only asymptotically unbiased, and all nonlinear and interaction effects should be correctly modeled. In addition, we prove that moderate calibration guarantees nonharmful decision making. Finally, results indicate that a flexible assessment of calibration in small validation data sets is problematic. Strong calibration is desirable for individualized decision support but unrealistic and counter productive by stimulating the development of overly complex models. Model development and external validation should focus on moderate calibration.",
+  "abstract_source": "pubmed",
+  "crossref_ok": true
+ },
+ "vickers2006": {
+  "doi": "10.1177/0272989X06295361",
+  "title": "Decision Curve Analysis: A Novel Method for Evaluating Prediction Models",
+  "authors": [
+   "Vickers A",
+   "Elkin E"
+  ],
+  "n_authors": 2,
+  "year": 2006,
+  "venue": "Medical Decision Making",
+  "volume": "26",
+  "issue": "6",
+  "pages": "565-574",
+  "type": "journal-article",
+  "abstract": "Background. Diagnostic and prognostic models are typically evaluated with measures of accuracy that do not address clinical consequences. Decision-analytic techniques allow assessment of clinical outcomes but often require collection of additional information and may be cumbersome to apply to models that yield a continuous result. The authors sought a method for evaluating and comparing prediction models that incorporates clinical consequences, requires only the data set on which the models are tested, and can be applied to models that have either continuous or dichotomous results. Method. The authors describe decision curve analysis, a simple, novel method of evaluating predictive models. They start by assuming that the threshold probability of a disease or event at which a patient would opt for treatment is informative of how the patient weighs the relative harms of a false-positive and a false-negative prediction. This theoretical relationship is then used to derive the net benefit of the model across different threshold probabilities. Plotting net benefit against threshold probability yields the “decision curve.” The authors apply the method to models for the prediction of seminal vesicle invasion in prostate cancer patients. Decision curve analysis identified the range of threshold probabilities in which a model was of value, the magnitude of benefit, and which of several models was optimal. Conclusion. Decision curve analysis is a suitable method for evaluating alternative diagnostic and prognostic strategies that has advantages over other commonly used measures and techniques.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "wynants2019": {
+  "doi": "10.1186/s12916-019-1425-3",
+  "title": "Three myths about risk thresholds for prediction models",
+  "authors": [
+   "on behalf of the Topic Group ‘Evaluating diagnostic tests and prediction models’ of the STRATOS initiative",
+   "Wynants L",
+   "van Smeden M",
+   "McLernon D",
+   "Timmerman D",
+   "Steyerberg E"
+  ],
+  "n_authors": 7,
+  "year": 2019,
+  "venue": "BMC Medicine",
+  "volume": "17",
+  "issue": "1",
+  "pages": "192",
+  "type": "journal-article",
+  "abstract": "Abstract Background Clinical prediction models are useful in estimating a patient’s risk of having a certain disease or experiencing an event in the future based on their current characteristics. Defining an appropriate risk threshold to recommend intervention is a key challenge in bringing a risk prediction model to clinical application; such risk thresholds are often defined in an ad hoc way. This is problematic because tacitly assumed costs of false positive and false negative classifications may not be clinically sensible. For example, when choosing the risk threshold that maximizes the proportion of patients correctly classified, false positives and false negatives are assumed equally costly. Furthermore, small to moderate sample sizes may lead to unstable optimal thresholds, which requires a particularly cautious interpretation of results. Main text We discuss how three common myths about risk thresholds often lead to inappropriate risk stratification of patients. First, we point out the contexts of counseling and shared decision-making in which a continuous risk estimate is more useful than risk stratification. Second, we argue that threshold selection should reflect the consequences of the decisions made following risk stratification. Third, we emphasize that there is usually no universally optimal threshold but rather that a plausible risk threshold depends on the clinical context. Consequently, we recommend to present results for multiple risk thresholds when developing or validating a prediction model. Conclusion Bearing in mind these three considerations can avoid inappropriate allocation (and non-allocation) of interventions. Using discriminating and well-calibrated models will generate better clinical outcomes if context-dependent thresholds are used.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "steyerberg": {
+  "doi": "10.1097/EDE.0b013e3181c30fb2",
+  "title": "Assessing the Performance of Prediction Models",
+  "authors": [
+   "Steyerberg E",
+   "Vickers A",
+   "Cook N",
+   "Gerds T",
+   "Gonen M",
+   "Obuchowski N"
+  ],
+  "n_authors": 8,
+  "year": 2010,
+  "venue": "Epidemiology",
+  "volume": "21",
+  "issue": "1",
+  "pages": "128-138",
+  "type": "journal-article",
+  "abstract": "The performance of prediction models can be assessed using a variety of methods and metrics. Traditional measures for binary and survival outcomes include the Brier score to indicate overall model performance, the concordance (or c) statistic for discriminative ability (or area under the receiver operating characteristic [ROC] curve), and goodness-of-fit statistics for calibration.Several new measures have recently been proposed that can be seen as refinements of discrimination measures, including variants of the c statistic for survival, reclassification tables, net reclassification improvement (NRI), and integrated discrimination improvement (IDI). Moreover, decision-analytic measures have been proposed, including decision curves to plot the net benefit achieved by making decisions based on model predictions.We aimed to define the role of these relatively novel approaches in the evaluation of the performance of prediction models. For illustration, we present a case study of predicting the presence of residual tumor versus benign tissue in patients with testicular cancer (n = 544 for model development, n = 273 for external validation).We suggest that reporting discrimination and calibration will always be important for a prediction model. Decision-analytic measures should be reported if the predictive model is to be used for clinical decisions. Other measures of performance may be warranted in specific applications, such as reclassification metrics to gain insight into the value of adding a novel predictor to an established model.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "wolff": {
+  "doi": "10.7326/m18-1376",
+  "title": "PROBAST: A Tool to Assess the Risk of Bias and Applicability of Prediction Model Studies",
+  "authors": [
+   "Wolff R",
+   "Moons K",
+   "Riley R",
+   "Whiting P",
+   "Westwood M",
+   "Collins G"
+  ],
+  "n_authors": 10,
+  "year": 2019,
+  "venue": "Annals of Internal Medicine",
+  "volume": "170",
+  "issue": "1",
+  "pages": "51-58",
+  "type": "journal-article",
+  "abstract": "Clinical prediction models combine multiple predictors to estimate risk for the presence of a particular condition (diagnostic models) or the occurrence of a certain event in the future (prognostic models). PROBAST (Prediction model Risk Of Bias ASsessment Tool), a tool for assessing the risk of bias (ROB) and applicability of diagnostic and prognostic prediction model studies, was developed by a steering group that considered existing ROB tools and reporting guidelines. The tool was informed by a Delphi procedure involving 38 experts and was refined through piloting. PROBAST is organized into the following 4 domains: participants, predictors, outcome, and analysis. These domains contain a total of 20 signaling questions to facilitate structured judgment of ROB, which was defined to occur when shortcomings in study design, conduct, or analysis lead to systematically distorted estimates of model predictive performance. PROBAST enables a focused and transparent approach to assessing the ROB and applicability of studies that develop, validate, or update prediction models for individualized predictions. Although PROBAST was designed for systematic reviews, it can be used more generally in critical appraisal of prediction model studies. Potential users include organizations supporting decision making, researchers and clinicians who are interested in evidence-based medicine or involved in guideline development, journal editors, and manuscript reviewers.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "tripodai": {
+  "doi": "10.1136/bmj-2023-078378",
+  "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+  "authors": [
+   "Collins G",
+   "Moons K",
+   "Dhiman P",
+   "Riley R",
+   "Beam A",
+   "Van Calster B"
+  ],
+  "n_authors": 34,
+  "year": 2024,
+  "venue": "BMJ",
+  "volume": "385",
+  "issue": null,
+  "pages": "e078378",
+  "type": "journal-article",
+  "abstract": "The TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) statement was published in 2015 to provide the minimum reporting recommendations for studies developing or evaluating the performance of a prediction model. Methodological advances in the field of prediction have since included the widespread use of artificial intelligence (AI) powered by machine learning methods to develop prediction models. An update to the TRIPOD statement is thus needed. TRIPOD+AI provides harmonised guidance for reporting prediction model studies, irrespective of whether regression modelling or machine learning methods have been used. The new checklist supersedes the TRIPOD 2015 checklist, which should no longer be used. This article describes the development of TRIPOD+AI and presents the expanded 27 item checklist with more detailed explanation of each reporting recommendation, and the TRIPOD+AI for Abstracts checklist. TRIPOD+AI aims to promote the complete, accurate, and transparent reporting of studies that develop a prediction model or evaluate its performance. Complete reporting will facilitate study appraisal, model evaluation, and model implementation.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "tripod2015": {
+  "doi": "10.1136/bmj.g7594",
+  "title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement",
+  "authors": [
+   "Collins G",
+   "Reitsma J",
+   "Altman D",
+   "Moons K"
+  ],
+  "n_authors": 4,
+  "year": 2015,
+  "venue": "BMJ",
+  "volume": "350",
+  "issue": "jan07 4",
+  "pages": "g7594-g7594",
+  "type": "journal-article",
+  "abstract": "Prediction models are developed to aid health care providers in estimating the probability or risk that a specific disease or condition is present (diagnostic models) or that a specific event will occur in the future (prognostic models), to inform their decision making. However, the overwhelming evidence shows that the quality of reporting of prediction model studies is poor. Only with full and clear reporting of information on all aspects of a prediction model can risk of bias and potential usefulness of prediction models be adequately assessed. The Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) Initiative developed a set of recommendations for the reporting of studies developing, validating, or updating a prediction model, whether for diagnostic or prognostic purposes. This article describes how the TRIPOD Statement was developed. An extensive list of items based on a review of the literature was created, which was reduced after a Web based survey and revised during a three day meeting in June 2011 with methodologists, health care professionals, and journal editors. The list was refined during several meetings of the steering group and in e-mail discussions with the wider group of TRIPOD contributors. The resulting TRIPOD Statement is a checklist of 22 items, deemed essential for transparent reporting of a prediction model study. The TRIPOD Statement aims to improve the transparency of the reporting of a prediction model study regardless of the study methods used. The TRIPOD Statement is best used in conjunction with the TRIPOD explanation and elaboration document. To aid the editorial process and readers of prediction model studies, it is recommended that authors include a completed checklist in their submission (also available at www.tripod-statement.org). To encourage dissemination of the TRIPOD Statement, this article is freely accessible on the Annals of Internal Medicine Web site (www.annals.org) and will be also published in BJOG, British Journal of Cancer, British Journal of Surgery, BMC Medicine, The BMJ, Circulation, Diabetic Medicine, European Journal of Clinical Investigation, European Urology, and Journal of Clinical Epidemiology. The authors jointly hold the copyright of this article. An accompanying explanation and elaboration article is freely available only on www.annals.org; Annals of Internal Medicine holds copyright for that article.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "riley2019": {
+  "doi": "10.1002/sim.7992",
+  "title": "Minimum sample size for developing a multivariable prediction model: PART II ‐ binary and time‐to‐event outcomes",
+  "authors": [
+   "Riley R",
+   "Snell K",
+   "Ensor J",
+   "Burke D",
+   "Harrell Jr F",
+   "Moons K"
+  ],
+  "n_authors": 7,
+  "year": 2018,
+  "venue": "Statistics in Medicine",
+  "volume": "38",
+  "issue": "7",
+  "pages": "1276-1296",
+  "type": "journal-article",
+  "abstract": "When designing a study to develop a new prediction model with binary or time‐to‐event outcomes, researchers should ensure their sample size is adequate in terms of the number of participants ( n ) and outcome events ( E ) relative to the number of predictor parameters ( p ) considered for inclusion. We propose that the minimum values of n and E (and subsequently the minimum number of events per predictor parameter, EPP) should be calculated to meet the following three criteria: (i) small optimism in predictor effect estimates as defined by a global shrinkage factor of ≥ 0.9, (ii) small absolute difference of ≤ 0.05 in the model's apparent and adjusted Nagelkerke's R 2 , and (iii) precise estimation of the overall risk in the population. Criteria (i) and (ii) aim to reduce overfitting conditional on a chosen p , and require prespecification of the model's anticipated Cox‐Snell R 2 , which we show can be obtained from previous studies. The values of n and E that meet all three criteria provides the minimum sample size required for model development. Upon application of our approach, a new diagnostic model for Chagas disease requires an EPP of at least 4.8 and a new prognostic model for recurrent venous thromboembolism requires an EPP of at least 23. This reinforces why rules of thumb (eg, 10 EPP) should be avoided. Researchers might additionally ensure the sample size gives precise estimates of key predictor effects; this is especially important when key categorical predictors have few events in some categories, as this may substantially increase the numbers required.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "kapoor": {
+  "doi": "10.1016/j.patter.2023.100804",
+  "title": "Leakage and the reproducibility crisis in machine-learning-based science",
+  "authors": [
+   "Kapoor S",
+   "Narayanan A"
+  ],
+  "n_authors": 2,
+  "year": 2023,
+  "venue": "Patterns",
+  "volume": "4",
+  "issue": "9",
+  "pages": "100804",
+  "type": "journal-article",
+  "abstract": "Machine-learning (ML) methods have gained prominence in the quantitative sciences. However, there are many known methodological pitfalls, including data leakage, in ML-based science. We systematically investigate reproducibility issues in ML-based science. Through a survey of literature in fields that have adopted ML methods, we find 17 fields where leakage has been found, collectively affecting 294 papers and, in some cases, leading to wildly overoptimistic conclusions. Based on our survey, we introduce a detailed taxonomy of eight types of leakage, ranging from textbook errors to open research problems. We propose that researchers test for each type of leakage by filling out model info sheets, which we introduce. Finally, we conduct a reproducibility study of civil war prediction, where complex ML models are believed to vastly outperform traditional statistical models such as logistic regression (LR). When the errors are corrected, complex ML models do not perform substantively better than decades-old LR models.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "varma": {
+  "doi": "10.1186/1471-2105-7-91",
+  "title": "Bias in error estimation when using cross-validation for model selection",
+  "authors": [
+   "Varma S",
+   "Simon R"
+  ],
+  "n_authors": 2,
+  "year": 2006,
+  "venue": "BMC Bioinformatics",
+  "volume": "7",
+  "issue": "1",
+  "pages": "91",
+  "type": "journal-article",
+  "abstract": "Abstract Background Cross-validation (CV) is an effective method for estimating the prediction error of a classifier. Some recent articles have proposed methods for optimizing classifiers by choosing classifier parameter values that minimize the CV error estimate. We have evaluated the validity of using the CV error estimate of the optimized classifier as an estimate of the true error expected on independent data. Results We used CV to optimize the classification parameters for two kinds of classifiers; Shrunken Centroids and Support Vector Machines (SVM). Random training datasets were created, with no difference in the distribution of the features between the two classes. Using these \"null\" datasets, we selected classifier parameter values that minimized the CV error estimate. 10-fold CV was used for Shrunken Centroids while Leave-One-Out-CV (LOOCV) was used for the SVM. Independent test data was created to estimate the true error. With \"null\" and \"non null\" (with differential expression between the classes) data, we also tested a nested CV procedure, where an inner CV loop is used to perform the tuning of the parameters while an outer CV is used to compute an estimate of the error. The CV error estimate for the classifier with the optimal parameters was found to be a substantially biased estimate of the true error that the classifier would incur on independent data. Even though there is no real difference between the two classes for the \"null\" datasets, the CV error estimate for the Shrunken Centroid with the optimal parameters was less than 30% on 18.5% of simulated training data-sets. For SVM with optimal parameters the estimated error rate was less than 30% on 38% of \"null\" data-sets. Performance of the optimized classifiers on the independent test set was no better than chance. The nested CV procedure reduces the bias considerably and gives an estimate of the error that is very close to that obtained on the independent testing set for both Shrunken Centroids and SVM classifiers for \"null\" and \"non-null\" data distributions. Conclusion We show that using CV to compute an error estimate for a classifier that has itself been tuned using CV gives a significantly biased estimate of the true error. Proper use of CV for estimating true error of a classifier developed using a well defined algorithm requires that all steps of the algorithm, including classifier parameter tuning, be repeated in each CV loop. A nested CV procedure provides an almost unbiased estimate of the true error.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "vabalas": {
+  "doi": "10.1371/journal.pone.0224365",
+  "title": "Machine learning algorithm validation with a limited sample size",
+  "authors": [
+   "Vabalas A",
+   "Gowen E",
+   "Poliakoff E",
+   "Casson A"
+  ],
+  "n_authors": 4,
+  "year": 2019,
+  "venue": "PLOS ONE",
+  "volume": "14",
+  "issue": "11",
+  "pages": "e0224365",
+  "type": "journal-article",
+  "abstract": "Advances in neuroimaging, genomic, motion tracking, eye-tracking and many other technology-based data collection methods have led to a torrent of high dimensional datasets, which commonly have a small number of samples because of the intrinsic high cost of data collection involving human participants. High dimensional data with a small number of samples is of critical importance for identifying biomarkers and conducting feasibility and pilot work, however it can lead to biased machine learning (ML) performance estimates. Our review of studies which have applied ML to predict autistic from non-autistic individuals showed that small sample size is associated with higher reported classification accuracy. Thus, we have investigated whether this bias could be caused by the use of validation methods which do not sufficiently control overfitting. Our simulations show that K-fold Cross-Validation (CV) produces strongly biased performance estimates with small sample sizes, and the bias is still evident with sample size of 1000. Nested CV and train/test split approaches produce robust and unbiased performance estimates regardless of sample size. We also show that feature selection if performed on pooled training and testing data is contributing to bias considerably more than parameter tuning. In addition, the contribution to bias by data dimensionality, hyper-parameter space and number of CV folds was explored, and validation methods were compared with discriminable data. The results suggest how to design robust testing methodologies when working with small datasets and how to interpret the results of other studies based on what validation method was used.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "christodoulou": {
+  "doi": "10.1016/j.jclinepi.2019.02.004",
+  "title": "A systematic review shows no performance benefit of machine learning over logistic regression for clinical prediction models",
+  "authors": [
+   "Christodoulou E",
+   "Ma J",
+   "Collins G",
+   "Steyerberg E",
+   "Verbakel J",
+   "Van Calster B"
+  ],
+  "n_authors": 6,
+  "year": 2019,
+  "venue": "Journal of Clinical Epidemiology",
+  "volume": "110",
+  "issue": null,
+  "pages": "12-22",
+  "type": "journal-article",
+  "abstract": "OBJECTIVES\nThe objective of this study was to compare performance of logistic regression (LR) with machine learning (ML) for clinical prediction modeling in the literature.\n\n\nSTUDY DESIGN AND SETTING\nWe conducted a Medline literature search (1/2016 to 8/2017) and extracted comparisons between LR and ML models for binary outcomes.\n\n\nRESULTS\nWe included 71 of 927 studies. The median sample size was 1,250 (range 72-3,994,872), with 19 predictors considered (range 5-563) and eight events per predictor (range 0.3-6,697). The most common ML methods were classification trees, random forests, artificial neural networks, and support vector machines. In 48 (68%) studies, we observed potential bias in the validation procedures. Sixty-four (90%) studies used the area under the receiver operating characteristic curve (AUC) to assess discrimination. Calibration was not addressed in 56 (79%) studies. We identified 282 comparisons between an LR and ML model (AUC range, 0.52-0.99). For 145 comparisons at low risk of bias, the difference in logit(AUC) between LR and ML was 0.00 (95% confidence interval, -0.18 to 0.18). For 137 comparisons at high risk of bias, logit(AUC) was 0.34 (0.20-0.47) higher for ML.\n\n\nCONCLUSION\nWe found no evidence of superior performance of ML over LR. Improvements in methodology and reporting are needed for studies that compare modeling algorithms.",
+  "abstract_source": "semanticscholar",
+  "crossref_ok": true
+ },
+ "lundberg2020": {
+  "doi": "10.1038/s42256-019-0138-9",
+  "title": "From local explanations to global understanding with explainable AI for trees",
+  "authors": [
+   "Lundberg S",
+   "Erion G",
+   "Chen H",
+   "DeGrave A",
+   "Prutkin J",
+   "Nair B"
+  ],
+  "n_authors": 10,
+  "year": 2020,
+  "venue": "Nature Machine Intelligence",
+  "volume": "2",
+  "issue": "1",
+  "pages": "56-67",
+  "type": "journal-article",
+  "abstract": "Tree-based machine learning models such as random forests, decision trees and gradient boosted trees are popular nonlinear predictive models, yet comparatively little attention has been paid to explaining their predictions. Here we improve the interpretability of tree-based models through three main contributions. (1) A polynomial time algorithm to compute optimal explanations based on game theory. (2) A new type of explanation that directly measures local feature interaction effects. (3) A new set of tools for understanding global model structure based on combining many local explanations of each prediction. We apply these tools to three medical machine learning problems and show how combining many high-quality local explanations allows us to represent global structure while retaining local faithfulness to the original model. These tools enable us to (1) identify high-magnitude but low-frequency nonlinear mortality risk factors in the US population, (2) highlight distinct population subgroups with shared risk characteristics, (3) identify nonlinear interaction effects among risk factors for chronic kidney disease and (4) monitor a machine learning model deployed in a hospital by identifying which features are degrading the model’s performance over time. Given the popularity of tree-based machine learning models, these improvements to their interpretability have implications across a broad set of domains. Tree-based machine learning models are widely used in domains such as healthcare, finance and public services. The authors present an explanation method for trees that enables the computation of optimal local explanations for individual predictions, and demonstrate their method on three medical datasets.",
+  "abstract_source": "semanticscholar",
+  "crossref_ok": true
+ },
+ "ghassemi": {
+  "doi": "10.1016/s2589-7500(21)00208-9",
+  "title": "The false hope of current approaches to explainable artificial intelligence in health care",
+  "authors": [
+   "Ghassemi M",
+   "Oakden-Rayner L",
+   "Beam A"
+  ],
+  "n_authors": 3,
+  "year": 2021,
+  "venue": "The Lancet Digital Health",
+  "volume": "3",
+  "issue": "11",
+  "pages": "e745-e750",
+  "type": "journal-article",
+  "abstract": "The black-box nature of current artificial intelligence (AI) has caused some to question whether AI must be explainable to be used in high-stakes scenarios such as medicine. It has been argued that explainable AI will engender trust with the health-care workforce, provide transparency into the AI decision making process, and potentially mitigate various kinds of bias. In this Viewpoint, we argue that this argument represents a false hope for explainable AI and that current explainability methods are unlikely to achieve these goals for patient-level decision support. We provide an overview of current explainability techniques and highlight how various failure cases can cause problems for decision making for individual patients. In the absence of suitable explainability methods, we advocate for rigorous internal and external validation of AI models as a more direct means of achieving the goals often associated with explainability, and we caution against having explainability be a requirement for clinically deployed models.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "rudin": {
+  "doi": "10.1038/s42256-019-0048-x",
+  "title": "Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead",
+  "authors": [
+   "Rudin C"
+  ],
+  "n_authors": 1,
+  "year": 2019,
+  "venue": "Nature Machine Intelligence",
+  "volume": "1",
+  "issue": "5",
+  "pages": "206-215",
+  "type": "journal-article",
+  "abstract": "Black box machine learning models are currently being used for high-stakes decision making throughout society, causing problems in healthcare, criminal justice and other domains. Some people hope that creating methods for explaining these black box models will alleviate some of the problems, but trying to explain black box models, rather than creating models that are interpretable in the first place, is likely to perpetuate bad practice and can potentially cause great harm to society. The way forward is to design models that are inherently interpretable. This Perspective clarifies the chasm between explaining black boxes and using inherently interpretable models, outlines several key reasons why explainable black boxes should be avoided in high-stakes decisions, identifies challenges to interpretable machine learning, and provides several example applications where interpretable models could potentially replace black box models in criminal justice, healthcare and computer vision. There has been a recent rise of interest in developing methods for ‘explainable AI’, where models are created to explain how a first ‘black box’ machine learning model arrives at a specific decision. It can be argued that instead efforts should be directed at building inherently interpretable models in the first place, in particular where they are applied in applications that directly affect human lives, such as in healthcare and criminal justice.",
+  "abstract_source": "semanticscholar",
+  "crossref_ok": true
+ },
+ "obermeyer": {
+  "doi": "10.1126/science.aax2342",
+  "title": "Dissecting racial bias in an algorithm used to manage the health of populations",
+  "authors": [
+   "Obermeyer Z",
+   "Powers B",
+   "Vogeli C",
+   "Mullainathan S"
+  ],
+  "n_authors": 4,
+  "year": 2019,
+  "venue": "Science",
+  "volume": "366",
+  "issue": "6464",
+  "pages": "447-453",
+  "type": "journal-article",
+  "abstract": "Racial bias in health algorithms The U.S. health care system uses commercial algorithms to guide health decisions. Obermeyer et al. find evidence of racial bias in one widely used algorithm, such that Black patients assigned the same level of risk by the algorithm are sicker than White patients (see the Perspective by Benjamin). The authors estimated that this racial bias reduces the number of Black patients identified for extra care by more than half. Bias occurs because the algorithm uses health costs as a proxy for health needs. Less money is spent on Black patients who have the same level of need, and the algorithm thus falsely concludes that Black patients are healthier than equally sick White patients. Reformulating the algorithm so that it no longer uses costs as a proxy for needs eliminates the racial bias in predicting who needs extra care. Science , this issue p. 447 ; see also p. 421",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "gianfrancesco": {
+  "doi": "10.1001/jamainternmed.2018.3763",
+  "title": "Potential Biases in Machine Learning Algorithms Using Electronic Health Record Data",
+  "authors": [
+   "Gianfrancesco M",
+   "Tamang S",
+   "Yazdany J",
+   "Schmajuk G"
+  ],
+  "n_authors": 4,
+  "year": 2018,
+  "venue": "JAMA Internal Medicine",
+  "volume": "178",
+  "issue": "11",
+  "pages": "1544",
+  "type": "journal-article",
+  "abstract": "A promise of machine learning in health care is the avoidance of biases in diagnosis and treatment; a computer algorithm could objectively synthesize and interpret the data in the medical record. Integration of machine learning with clinical decision support tools, such as computerized alerts or diagnostic support, may offer physicians and others who provide health care targeted and timely information that can improve clinical decisions. Machine learning algorithms, however, may also be subject to biases. The biases include those related to missing data and patients not identified by algorithms, sample size and underestimation, and misclassification and measurement error. There is concern that biases and deficiencies in the data used by machine learning algorithms may contribute to socioeconomic disparities in health care. This Special Communication outlines the potential biases that may be introduced into machine learning-based clinical decision support tools that use electronic health record data and proposes potential solutions to the problems of overreliance on automation, algorithms based on biased data, and algorithms that do not provide information that is clinically meaningful. Existing health care disparities should not be amplified by thoughtless or excessive reliance on machines.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "niculescu": {
+  "doi": "10.1145/1102351.1102430",
+  "title": "Predicting good probabilities with supervised learning",
+  "authors": [
+   "Niculescu-Mizil A",
+   "Caruana R"
+  ],
+  "n_authors": 2,
+  "year": 2005,
+  "venue": "Proceedings of the 22nd international conference on Machine learning  - ICML '05",
+  "volume": null,
+  "issue": null,
+  "pages": "625-632",
+  "type": "proceedings-article",
+  "abstract": "We examine the relationship between the predictions made by different learning algorithms and true posterior probabilities. We show that maximum margin methods such as boosted trees and boosted stumps push probability mass away from 0 and 1 yielding a characteristic sigmoid shaped distortion in the predicted probabilities. Models such as Naive Bayes, which make unrealistic independence assumptions, push probabilities toward 0 and 1. Other models such as neural nets and bagged trees do not have these biases and predict well calibrated probabilities. We experiment with two ways of correcting the biased probabilities predicted by some learning methods: Platt Scaling and Isotonic Regression. We qualitatively examine what kinds of distortions these calibration methods are suitable for and quantitatively examine how much data they need to be effective. The empirical results show that after calibration boosted trees, random forests, and SVMs predict the best probabilities.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "slack": {
+  "doi": "10.1145/3375627.3375830",
+  "title": "Fooling LIME and SHAP",
+  "authors": [
+   "Slack D",
+   "Hilgard S",
+   "Jia E",
+   "Singh S",
+   "Lakkaraju H"
+  ],
+  "n_authors": 5,
+  "year": 2020,
+  "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society",
+  "volume": null,
+  "issue": null,
+  "pages": "180-186",
+  "type": "proceedings-article",
+  "abstract": "As machine learning black boxes are increasingly being deployed in domains such as healthcare and criminal justice, there is growing emphasis on building tools and techniques for explaining these black boxes in an interpretable manner. Such explanations are being leveraged by domain experts to diagnose systematic errors and underlying biases of black boxes. In this paper, we demonstrate that post hoc explanations techniques that rely on input perturbations, such as LIME and SHAP, are not reliable. Specifically, we propose a novel scaffolding technique that effectively hides the biases of any given classifier by allowing an adversarial entity to craft an arbitrary desired explanation. Our approach can be used to scaffold any biased classifier in such a way that its predictions on the input data distribution still remain biased, but the post hoc explanations of the scaffolded classifier look innocuous. Using extensive evaluation with multiple real world datasets (including COMPAS), we demonstrate how extremely biased (racist) classifiers crafted by our framework can easily fool popular explanation techniques such as LIME and SHAP into generating innocuous explanations which do not reflect the underlying biases.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "lundberg2017": {
+  "arxiv": "1705.07874",
+  "title": "A Unified Approach to Interpreting Model Predictions",
+  "authors": [
+   "Scott Lundberg",
+   "Su-In Lee"
+  ],
+  "n_authors": 2,
+  "year": 2017,
+  "venue": "arXiv preprint",
+  "abstract": "Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
+  "abstract_source": "arxiv",
+  "crossref_ok": false,
+  "type": "preprint"
+ },
+ "alvarez": {
+  "arxiv": "1806.08049",
+  "title": "On the Robustness of Interpretability Methods",
+  "authors": [
+   "David Alvarez-Melis",
+   "Tommi S. Jaakkola"
+  ],
+  "n_authors": 2,
+  "year": 2018,
+  "venue": "arXiv preprint",
+  "abstract": "We argue that robustness of explanations---i.e., that similar inputs should give rise to similar explanations---is a key desideratum for interpretability. We introduce metrics to quantify robustness and demonstrate that current methods do not perform well according to these metrics. Finally, we propose ways that robustness can be enforced on existing interpretability approaches.",
+  "abstract_source": "arxiv",
+  "crossref_ok": false,
+  "type": "preprint"
+ },
+ "krishna": {
+  "arxiv": "2202.01602",
+  "title": "The Disagreement Problem in Explainable Machine Learning: A Practitioner's Perspective",
+  "authors": [
+   "Satyapriya Krishna",
+   "Tessa Han",
+   "Alex Gu",
+   "Steven Wu",
+   "Shahin Jabbari",
+   "Himabindu Lakkaraju"
+  ],
+  "n_authors": 6,
+  "year": 2022,
+  "venue": "arXiv preprint",
+  "abstract": "As various post hoc explanation methods are increasingly being leveraged to explain complex models in high-stakes settings, it becomes critical to develop a deeper understanding of whether and when the explanations output by these methods disagree with each other, and how such disagreements are resolved in practice. However, there is little to no research that provides answers to these critical questions. In this work, we formalize and study the disagreement problem in explainable machine learning. More specifically, we define the notion of disagreement between explanations, analyze how often such disagreements occur in practice, and how practitioners resolve these disagreements. We first conduct interviews with data scientists to understand what constitutes disagreement between explanations generated by different methods for the same model prediction, and introduce a novel quantitative framework to formalize this understanding. We then leverage this framework to carry out a rigorous empirical analysis with four real-world datasets, six state-of-the-art post hoc explanation methods, and six different predictive models, to measure the extent of disagreement between the explanations generated by various popular explanation methods. In addition, we carry out an online user study with data scientists to understand how they resolve the aforementioned disagreements. Our results indicate that (1) state-of-the-art explanation methods often disagree in terms of the explanations they output, and (2) machine learning practitioners often employ ad hoc heuristics when resolving such disagreements. These findings suggest that practitioners may be relying on misleading explanations when making consequential decisions. They also underscore the importance of developing principled frameworks for effectively evaluating and comparing explanations output by various explanation techniques.",
+  "abstract_source": "arxiv",
+  "crossref_ok": false,
+  "type": "preprint"
+ },
+ "kumar2020": {
+  "arxiv": "2002.11097",
+  "title": "Problems with Shapley-value-based explanations as feature importance measures",
+  "authors": [
+   "I. Elizabeth Kumar",
+   "Suresh Venkatasubramanian",
+   "Carlos Scheidegger",
+   "Sorelle Friedler"
+  ],
+  "n_authors": 4,
+  "year": 2020,
+  "venue": "arXiv preprint",
+  "abstract": "Game-theoretic formulations of feature importance have become popular as a way to \"explain\" machine learning models. These methods define a cooperative game between the features of a model and distribute influence among these input elements using some form of the game's unique Shapley values. Justification for these methods rests on two pillars: their desirable mathematical properties, and their applicability to specific motivations for explanations. We show that mathematical problems arise when Shapley values are used for feature importance and that the solutions to mitigate these necessarily induce further complexity, such as the need for causal reasoning. We also draw on additional literature to argue that Shapley values do not provide explanations which suit human-centric goals of explainability.",
+  "abstract_source": "arxiv",
+  "crossref_ok": false,
+  "type": "preprint"
+ },
+ "matijevic": {
+  "arxiv": "2602.11360",
+  "title": "Bootstrapping-based Regularisation for Reducing Individual Prediction Instability in Clinical Risk Prediction Models",
+  "authors": [
+   "Sara Matijevic",
+   "Christopher Yau"
+  ],
+  "n_authors": 2,
+  "year": 2026,
+  "venue": "arXiv preprint",
+  "abstract": "Clinical prediction models are increasingly used to support patient care, yet many deep learning-based approaches remain unstable, as their predictions can vary substantially when trained on different samples from the same population. Such instability undermines reliability and limits clinical adoption. In this study, we propose a novel bootstrapping-based regularisation framework that embeds the bootstrapping process directly into the training of deep neural networks. This approach constrains prediction variability across resampled datasets, producing a single model with inherent stability properties. We evaluated models constructed using the proposed regularisation approach against conventional and ensemble models using simulated data and three clinical datasets: GUSTO-I, Framingham, and SUPPORT. Across all datasets, our model exhibited improved prediction stability, with lower mean absolute differences (e.g., 0.019 vs. 0.059 in GUSTO-I; 0.057 vs. 0.088 in Framingham) and markedly fewer significantly deviating predictions. Importantly, discriminative performance and feature importance consistency were maintained, with high SHAP correlations between models (e.g., 0.894 for GUSTO-I; 0.965 for Framingham). While ensemble models achieved greater stability, we show that this came at the expense of interpretability, as each constituent model used predictors in different ways. By regularising predictions to align with bootstrapped distributions, our approach allows prediction models to be developed that achieve greater robustness and reproducibility without sacrificing interpretability. This method provides a practical route toward more reliable and clinically trustworthy deep learning models, particularly valuable in data-limited healthcare settings.",
+  "abstract_source": "arxiv",
+  "crossref_ok": false,
+  "type": "preprint"
+ },
+ "nadeau": {
+  "doi": "10.1023/A:1024068626366",
+  "title": "Inference for the Generalization Error",
+  "authors": [
+   "Nadeau C",
+   "Bengio Y"
+  ],
+  "n_authors": 2,
+  "year": 2003,
+  "venue": "Machine Learning",
+  "volume": "52",
+  "issue": "3",
+  "pages": "239-281",
+  "type": "journal-article",
+  "abstract": "",
+  "abstract_source": null,
+  "crossref_ok": true
+ },
+ "dietterich": {
+  "doi": "10.1162/089976698300017197",
+  "title": "Approximate Statistical Tests for Comparing Supervised Classification Learning Algorithms",
+  "authors": [
+   "Dietterich T"
+  ],
+  "n_authors": 1,
+  "year": 1998,
+  "venue": "Neural Computation",
+  "volume": "10",
+  "issue": "7",
+  "pages": "1895-1923",
+  "type": "journal-article",
+  "abstract": "This article reviews five approximate statistical tests for determining whether one learning algorithm outperforms another on a particular learning task. These test sare compared experimentally to determine their probability of incorrectly detecting a difference when no difference exists (type I error). Two widely used statistical tests are shown to have high probability of type I error in certain situations and should never be used: a test for the difference of two proportions and a paired-differences t test based on taking several random train-test splits. A third test, a paired-differences t test based on 10-fold cross-validation, exhibits somewhat elevated probability of type I error. A fourth test, McNemar's test, is shown to have low type I error. The fifth test is a new test, 5 × 2 cv, based on five iterations of twofold cross-validation. Experiments show that this test also has acceptable type I error. The article also measures the power (ability to detect algorithm differences when they do exist) of these tests. The cross-validated t test is the most powerful. The 5×2 cv test is shown to be slightly more powerful than McNemar's test. The choice of the best test is determined by the computational cost of running the learning algorithm. For algorithms that can be executed only once, Mc-Nemar's test is the only test with acceptable type I error. For algorithms that can be executed 10 times, the 5 × 2 cv test is recommended, because it is slightly more powerful and because it directly measures variation due to the choice of training set.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "fawcett": {
+  "doi": "10.1016/j.patrec.2005.10.010",
+  "title": "An introduction to ROC analysis",
+  "authors": [
+   "Fawcett T"
+  ],
+  "n_authors": 1,
+  "year": 2006,
+  "venue": "Pattern Recognition Letters",
+  "volume": "27",
+  "issue": "8",
+  "pages": "861-874",
+  "type": "journal-article",
+  "abstract": "",
+  "abstract_source": null,
+  "crossref_ok": true
+ },
+ "brier": {
+  "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+  "title": "VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY",
+  "authors": [
+   "BRIER G"
+  ],
+  "n_authors": 1,
+  "year": 1950,
+  "venue": "Monthly Weather Review",
+  "volume": "78",
+  "issue": "1",
+  "pages": "1-3",
+  "type": "journal-article",
+  "abstract": "",
+  "abstract_source": null,
+  "crossref_ok": true
+ },
+ "cawley": {
+  "title": "On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation",
+  "authors": [
+   "Cawley G",
+   "Talbot N"
+  ],
+  "n_authors": 2,
+  "year": 2010,
+  "venue": "Journal of Machine Learning Research",
+  "volume": "11",
+  "issue": null,
+  "pages": "2079-2107 (to confirm)",
+  "type": "journal-article",
+  "abstract_source": "jmlr.org page (abstract read)",
+  "crossref_ok": false,
+  "doi": null
+ },
+ "demsar": {
+  "title": "Statistical Comparisons of Classifiers over Multiple Data Sets",
+  "authors": [
+   "Demsar J"
+  ],
+  "n_authors": 1,
+  "year": 2006,
+  "venue": "Journal of Machine Learning Research",
+  "volume": "7",
+  "issue": null,
+  "pages": "1-30 (to confirm)",
+  "type": "journal-article",
+  "abstract_source": "jmlr.org page (abstract read)",
+  "crossref_ok": false,
+  "doi": null
+ }
+}
