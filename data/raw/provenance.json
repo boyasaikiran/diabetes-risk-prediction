@@ -1,0 +1,12 @@
+{
+  "name": "Pima Indians Diabetes Database",
+  "original_owner": "National Institute of Diabetes and Digestive and Kidney Diseases",
+  "donor": "Vincent Sigillito (Johns Hopkins APL), 1990",
+  "obtained_via": "OpenML data id 37 (mirror of UCI)",
+  "source_url": "https://www.openml.org/d/37",
+  "uci_url": "https://archive.ics.uci.edu/ml/datasets/pima+indians+diabetes",
+  "openml_license_field": "Public (verify terms at source before redistribution)",
+  "downloaded_utc": "2026-10-26T22:20:23+00:00",
+  "sha256": "779e408fd8c0792f4f6accb05cce14dcd6cdc7aaeaa643b34667134dfc655b49",
+  "rows": 768
+}

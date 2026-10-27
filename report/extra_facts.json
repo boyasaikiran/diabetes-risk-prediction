@@ -1,0 +1,180 @@
+{
+ "n_test": 154,
+ "test_pos": 54,
+ "test_neg": 100,
+ "train_pos": 214,
+ "train_neg": 400,
+ "recomputed_tp_fp_fn_tn": [
+  44,
+  33,
+  10,
+  67
+ ],
+ "false_negatives": {
+  "n": 10,
+  "median": {
+   "Glucose": 113.5,
+   "BMI": 30.3,
+   "Age": 28.5,
+   "Pregnancies": 3.5
+  },
+  "missing_zero_counts": {
+   "Insulin": 8,
+   "SkinThickness": 6,
+   "BloodPressure": 0
+  },
+  "mean_prob": 0.19030471314466785
+ },
+ "false_positives": {
+  "n": 33,
+  "median": {
+   "Glucose": 137.0,
+   "BMI": 35.9,
+   "Age": 29.0,
+   "Pregnancies": 5.0
+  },
+  "missing_zero_counts": {
+   "Insulin": 16,
+   "SkinThickness": 9,
+   "BloodPressure": 0
+  },
+  "mean_prob": 0.5486158650174309
+ },
+ "true_positives": {
+  "n": 44,
+  "median": {
+   "Glucose": 144.5,
+   "BMI": 34.55,
+   "Age": 38.0,
+   "Pregnancies": 4.5
+  },
+  "missing_zero_counts": {
+   "Insulin": 25,
+   "SkinThickness": 15,
+   "BloodPressure": 5
+  },
+  "mean_prob": 0.6224852285947994
+ },
+ "true_negatives": {
+  "n": 67,
+  "median": {
+   "Glucose": 99.0,
+   "BMI": 26.4,
+   "Age": 24.0,
+   "Pregnancies": 2.0
+  },
+  "missing_zero_counts": {
+   "Insulin": 35,
+   "SkinThickness": 22,
+   "BloodPressure": 7
+  },
+  "mean_prob": 0.11007051670920254
+ },
+ "calibration_bin_sizes": [
+  20,
+  20,
+  19,
+  19,
+  19,
+  19,
+  19,
+  19
+ ],
+ "example": {
+  "inputs": {
+   "Pregnancies": 1,
+   "Glucose": 150,
+   "BloodPressure": "",
+   "SkinThickness": "",
+   "Insulin": "",
+   "BMI": 33.5,
+   "DiabetesPedigreeFunction": "",
+   "Age": 45
+  },
+  "probability": 0.51646237098177,
+  "threshold": 0.2941,
+  "base": 0.3322711731116624,
+  "method": "shap-permutation",
+  "warnings": [
+   "Not provided (replaced by training-set medians): BloodPressure, SkinThickness, Insulin, DiabetesPedigreeFunction"
+  ],
+  "contributions": [
+   {
+    "label": "Plasma glucose (2-h OGTT)",
+    "contribution": 0.20786231880868355,
+    "imputed": false
+   },
+   {
+    "label": "Number of pregnancies",
+    "contribution": -0.0592008119176711,
+    "imputed": false
+   },
+   {
+    "label": "Age",
+    "contribution": 0.03819168233790292,
+    "imputed": false
+   },
+   {
+    "label": "Diabetes pedigree function",
+    "contribution": -0.00677224106263235,
+    "imputed": true
+   },
+   {
+    "label": "Body mass index",
+    "contribution": 0.005195144339330934,
+    "imputed": false
+   },
+   {
+    "label": "Triceps skin-fold thickness",
+    "contribution": -0.0007259092642495758,
+    "imputed": true
+   },
+   {
+    "label": "2-hour serum insulin",
+    "contribution": -0.0006723663972651604,
+    "imputed": true
+   },
+   {
+    "label": "Diastolic blood pressure",
+    "contribution": 0.0003133810260086658,
+    "imputed": true
+   }
+  ],
+  "sum_check": 0.5164623709817703
+ },
+ "lr_coefficients": {
+  "Pregnancies": {
+   "mean": 0.3092458552644454,
+   "sd": 0.03402616429945874
+  },
+  "Glucose": {
+   "mean": 0.9924756551805061,
+   "sd": 0.04658219199965489
+  },
+  "BloodPressure": {
+   "mean": 0.024647551896581875,
+   "sd": 0.03088307114174071
+  },
+  "SkinThickness": {
+   "mean": 0.07118275003418437,
+   "sd": 0.05745514687845007
+  },
+  "Insulin": {
+   "mean": 0.023872435486571298,
+   "sd": 0.05459607865991453
+  },
+  "BMI": {
+   "mean": 0.5753217403424229,
+   "sd": 0.03728343598602551
+  },
+  "DiabetesPedigreeFunction": {
+   "mean": 0.24830315979385773,
+   "sd": 0.037898960297373344
+  },
+  "Age": {
+   "mean": 0.18798168809059154,
+   "sd": 0.031417484831178524
+  }
+ },
+ "lr_intercept_mean": -0.23731171034447068
+}

@@ -1,0 +1,246 @@
+{
+ "versions": {
+  "python": "3.12.3",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.0",
+  "numpy": "2.5.4"
+ },
+ "data": {
+  "sha256_matches_provenance": true,
+  "rows": 768,
+  "positives": 268,
+  "duplicate_rows_incl_target": 0,
+  "duplicate_feature_rows": 0,
+  "feature_rows_duplicated_with_different_label": 0
+ },
+ "glucose_vs_label": {
+  "max_glucose_all": 199.0,
+  "max_glucose_positive": 199.0,
+  "max_glucose_negative": 197.0,
+  "n_glucose_ge_200": 0,
+  "median_glucose_pos_nonzero": 140.0,
+  "median_glucose_neg_nonzero": 107.0,
+  "share_positive_with_glucose_lt_140": 0.48880597014925375,
+  "share_positive_with_glucose_lt_126": 0.3358208955223881,
+  "univariate_glucose_auc_nonzero": 0.7927905780547949
+ },
+ "split": {
+  "n_train": 614,
+  "n_test": 154,
+  "train_pos": 214,
+  "test_pos": 54,
+  "matches_metadata": true,
+  "train_test_index_overlap": 0,
+  "exact_feature_row_overlap_train_test": 0,
+  "test_indices_head": [
+   3,
+   6,
+   13,
+   17,
+   24,
+   32,
+   38,
+   42,
+   44,
+   62
+  ]
+ },
+ "model": {
+  "type": "CalibratedClassifierCV",
+  "classes_": [
+   0,
+   1
+  ],
+  "n_calibrated": 5,
+  "base_clf": [
+   "LogisticRegression"
+  ],
+  "C": 0.1,
+  "class_weight": "balanced",
+  "calibrator": "_SigmoidCalibration"
+ },
+ "test_metrics": {
+  "recomputed": {
+   "roc_auc": 0.8087037037037037,
+   "pr_auc": 0.6635307579197478,
+   "brier": 0.17385371695204868,
+   "sensitivity": 0.8148148148148148,
+   "specificity": 0.67,
+   "precision": 0.5714285714285714,
+   "accuracy": 0.7207792207792207,
+   "f1": 0.6717557251908397
+  },
+  "reported": {
+   "roc_auc": 0.8087037037037037,
+   "pr_auc": 0.6635307579197478,
+   "brier": 0.17385371695204868,
+   "sensitivity": 0.8148148148148148,
+   "specificity": 0.67,
+   "precision": 0.5714285714285714,
+   "accuracy": 0.7207792207792207,
+   "f1": 0.6717557251908397
+  },
+  "max_abs_diff": 0.0,
+  "confusion_sklearn": {
+   "tn": 67,
+   "fp": 33,
+   "fn": 10,
+   "tp": 44
+  },
+  "confusion_manual": {
+   "tp": 44,
+   "fp": 33,
+   "fn": 10,
+   "tn": 67
+  },
+  "confusion_reported": {
+   "tn": 67,
+   "fp": 33,
+   "fn": 10,
+   "tp": 44
+  },
+  "pred_pos_rate": 0.5
+ },
+ "bootstrap": {
+  "roc_auc": {
+   "independent_5000": [
+    0.7379490740740741,
+    0.8740740740740741
+   ],
+   "saved_1000": [
+    0.7353518518518517,
+    0.8724120370370371
+   ]
+  },
+  "sensitivity": {
+   "independent_5000": [
+    0.7037037037037037,
+    0.9074074074074074
+   ],
+   "saved_1000": [
+    0.7037037037037037,
+    0.9074074074074074
+   ]
+  },
+  "specificity": {
+   "independent_5000": [
+    0.57,
+    0.76
+   ],
+   "saved_1000": [
+    0.58,
+    0.75
+   ]
+  },
+  "precision": {
+   "independent_5000": [
+    0.5,
+    0.6527777777777778
+   ],
+   "saved_1000": [
+    0.5,
+    0.6470588235294118
+   ]
+  },
+  "brier": {
+   "independent_5000": [
+    0.14140357308191112,
+    0.20848241388280486
+   ],
+   "saved_1000": [
+    0.14204283900852208,
+    0.2085934549838332
+   ]
+  },
+  "note": "Both resample only the 154 test records for a FIXED model and threshold; training variability and threshold uncertainty are not included."
+ },
+ "preprocessing_fit_check": [
+  {
+   "fold": 0,
+   "imputer_equals_fold_train_median": true,
+   "imputer_equals_full_train_median": false,
+   "imputer_equals_full_dataset_median": false
+  },
+  {
+   "fold": 1,
+   "imputer_equals_fold_train_median": true,
+   "imputer_equals_full_train_median": false,
+   "imputer_equals_full_dataset_median": false
+  },
+  {
+   "fold": 2,
+   "imputer_equals_fold_train_median": true,
+   "imputer_equals_full_train_median": false,
+   "imputer_equals_full_dataset_median": false
+  },
+  {
+   "fold": 3,
+   "imputer_equals_fold_train_median": true,
+   "imputer_equals_full_train_median": false,
+   "imputer_equals_full_dataset_median": false
+  },
+  {
+   "fold": 4,
+   "imputer_equals_fold_train_median": true,
+   "imputer_equals_full_train_median": false,
+   "imputer_equals_full_dataset_median": false
+  }
+ ],
+ "threshold_reproduction": {
+  "saved": 0.2941,
+  "recomputed": 0.2941,
+  "oof_sens_at_thr": 0.8037383177570093,
+  "oof_spec_at_thr": 0.7,
+  "oof_auc": 0.8464369158878504,
+  "oof_brier": 0.15082381746517665,
+  "final_model_in_sample_sens_at_thr": 0.7990654205607477,
+  "final_model_in_sample_spec_at_thr": 0.71
+ },
+ "app_vs_batch": {
+  "n_tested": 40,
+  "accepted": 39,
+  "max_abs_prob_diff_accepted": 0.0,
+  "rejected_reasons": {
+   "Body mass index: this field is required.": 1
+  }
+ },
+ "validation_coverage": {
+  "dataset_rows_rejected_by_app_ranges": 1,
+  "by_feature": {
+   "BloodPressure": 1
+  }
+ },
+ "zero_vs_nan_equivalent": true,
+ "shap": {
+  "methods_used": [
+   "shap-permutation"
+  ],
+  "max_additivity_error": 7.771561172376096e-16,
+  "seed_sd_of_contribution_pp": {
+   "Glucose": 0.1561698335754111,
+   "BMI": 0.14402459039480334,
+   "Pregnancies": 0.10555083822381059,
+   "Age": 0.06711493916663117,
+   "DiabetesPedigreeFunction": 0.04106758198367893,
+   "BloodPressure": 0.0023286816548171016,
+   "Insulin": 0.0006266837925095327,
+   "SkinThickness": 0.018416550108806818
+  },
+  "seed_max_range_pp": 0.4490785501472361,
+  "note": "permutation explainer, max_evals=161, 100-row background; contributions in probability units for ONE test row across 8 seeds"
+ },
+ "cv_reproduction": {
+  "recomputed_mean": 0.8449944629014396,
+  "recomputed_sd": 0.013034589339469911,
+  "saved_mean": 0.8449944629,
+  "saved_sd": 0.0130345893,
+  "note": "same folds were used for tuning, OOF predictions, calibration decision and threshold (not nested)"
+ },
+ "retrain_reproducibility": {
+  "returncode": 0,
+  "max_abs_diff_test_metrics": 0.0,
+  "same_selected_model": true,
+  "same_confusion": true,
+  "same_cv_table": true
+ }
+}

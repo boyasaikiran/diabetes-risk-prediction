@@ -1,0 +1,23 @@
+# Central configuration. Paths are relative to the project root.
+# Override the model directory at deploy time with env var DRP_MODEL_DIR.
+seed: 42
+paths:
+  raw_data: data/raw/pima_diabetes.csv
+  provenance: data/raw/provenance.json
+  model_dir: models
+  artifact_dir: artifacts
+data:
+  openml_id: 37
+  target: Outcome
+  zero_is_missing: [Glucose, BloodPressure, SkinThickness, Insulin, BMI]
+split:
+  test_size: 0.20
+cv:
+  folds: 5
+  scoring: roc_auc
+threshold:
+  # Screening-style operating point: highest specificity subject to
+  # out-of-fold sensitivity >= target, chosen on TRAINING data only.
+  target_sensitivity: 0.80
+bootstrap:
+  n: 1000
