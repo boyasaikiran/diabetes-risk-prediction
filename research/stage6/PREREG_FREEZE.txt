@@ -1,0 +1,6 @@
+prereg-v1 freeze record, 2026-10-27
+SHA-256 of frozen files (computed after final edit):
+7e22eff38c7ef1fffc0af90c7606c0b20d6669caf20c85a8da866f3d6f986561  PREREG_DRAFT.md
+bfd0234f4a8c33d1f55b42db3bc9de76fcef46fe5048774cdcf9b3b300d8e7f4  STAGE6_DESIGN.md
+532e8be1b835b32b2061bd5555b3dceacb7cd4edd825bf5cf7835cf0fa4a9910  experiment_matrix.csv
+Verify: git show prereg-v1:research/stage6/<file> | sha256sum

@@ -1,6 +1,8 @@
-# Pre-registration DRAFT — label-aware imputation leakage (H2)
+# Pre-registration — label-aware imputation leakage (H2)
 
-**Status:** DRAFT for your approval. Nothing in this file has been run. When you sign off, commit it and tag the commit `prereg-v1` **before** any Stage 7 experiment is executed; any later change must be a dated amendment, never a silent edit.
+**Status: FROZEN as `prereg-v1` on 27 Oct 2026** (approved by the student). Frozen together with `STAGE6_DESIGN.md` and `experiment_matrix.csv` (hashes in `PREREG_FREEZE.txt`). No experiment had been run when this was frozen. Any later change must be a **dated amendment** appended in §9, never a silent edit. The file keeps its original name so that earlier references remain valid.
+
+**AI-assistance disclosure.** The experiment code and tests for this study are written with AI assistance (Claude) with the student's approval under the student's institutional rule; the manuscript prose is written by the student.
 
 **Disclosure of how this plan arose (forking paths).** The idea came from reading three Pima studies that describe outcome-conditional median imputation and report ROC-AUC ≈ 0.93–0.96 (abstract-level; full texts not yet read by us), and from an exploratory pilot on the *training split only* (RF ROC-AUC 0.840 → 0.938 under a leaky pipeline; permuted-label canary 0.49 vs 0.857). The size of the smallest effect of interest below was chosen knowing the pilot. The 154-row test split of the earlier project was never used for the pilot.
 
@@ -64,3 +66,14 @@ Smallest effect of interest (SESOI) for ROC-AUC: **0.02** (disclosed as pilot-in
 - All planned runs are reported, including null or unfavourable ones.
 - Fold- or split-wise p-values are not used as independent evidence; inference uses corrected variance (Design §6).
 - Exploratory analyses are labelled as exploratory.
+
+## 8. Fixed run parameters (frozen before any run)
+- **Master seed for all full runs: `20261027`.** All split, permutation, simulation and model seeds are derived from it with `numpy.random.SeedSequence.spawn`. The **dry run uses a different master seed (`1`)**, which is never reused for a reported result.
+- Real data: `J = 100` paired stratified 80/20 splits of all 768 rows; the model settings in `STAGE6_DESIGN.md` §4.
+- Canary: 10 splits × 100 label permutations per regime × model; flag rule `mean permuted AUC > mu0 + 2·sigma0` (Reg-0 reference).
+- Simulation: the grid in `experiment_matrix.csv`, 50 replicates per cell, truth sample of 20,000 rows.
+- Software is pinned via `research/leakage_study/environment/requirements.lock.txt`, captured before the dry run.
+- The dry run may be used only to check runtime, test-suite health and the per-split SD of paired differences for planning the CI width. **It may not be used to change hypotheses, regimes, models, SESOI, thresholds or decision rules.**
+
+## 9. Amendment log
+*(empty at freeze)*
