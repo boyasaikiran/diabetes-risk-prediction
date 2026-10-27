@@ -1,0 +1,12 @@
+# Exp 4 (controlled simulation; synthetic data, no clinical claims). Frozen parameters: PREREG_DRAFT.md section 8 (prereg-v1).
+master_seed: 20261027
+pi: [0.0, 0.10, 0.25, 0.50, 0.75]     # pi = 0 is negative control A (no missing cells)
+mechanism: [MCAR, MNAR]
+target_auc: [0.70, 0.80, 0.90]
+n: [768, 5000]
+regimes: [Reg-0, Reg-1, Reg-2, Reg-3]
+models: [LR, RF-default, HGB]
+reps: 50
+truth_n: 20000
+prevalence: 0.35
+n_jobs: 4

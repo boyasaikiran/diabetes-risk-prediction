@@ -1,0 +1,33 @@
+# Dry run (G4): engineering checks only. Uses a DIFFERENT master seed (1) that is never reused for a reported result.
+# It may not be used to change hypotheses, regimes, models, SESOI, thresholds or decision rules (PREREG section 8).
+master_seed: 1
+exp1:
+  n_splits: 5
+  test_size: 0.2
+  regimes: [Reg-0, Reg-1, Reg-2, Reg-3]
+  models: [LR, RF-default, RF-regularised, HGB, SVM-RBF]
+  importance_models: [LR, RF-default, HGB]
+  importance_repeats: 10
+  n_jobs: 4
+exp2:
+  n_splits_total: 5
+  n_splits_used: 2
+  test_size: 0.2
+  n_perm: 20
+  regimes: [Reg-0, Reg-1, Reg-2, Reg-3]
+  models: [LR, RF-default]
+  n_jobs: 4
+exp4:
+  pi: [0.0, 0.5]
+  mechanism: [MCAR, MNAR]
+  target_auc: [0.80]
+  n: [768]
+  regimes: [Reg-0, Reg-1, Reg-2, Reg-3]
+  models: [LR, RF-default, HGB]
+  reps: 5
+  truth_n: 20000
+  prevalence: 0.35
+  n_jobs: 4
+negative_control_b:
+  n_splits: 2
+  models: [LR, RF-default]
