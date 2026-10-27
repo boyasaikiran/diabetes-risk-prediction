@@ -1,0 +1,22 @@
+experiment,factor,levels,count_per_factor,notes
+Exp1 real Pima,regime,"Reg-0 valid; Reg-1 global label-free; Reg-2 label-aware train-only (true held-out label); Reg-3 label-aware global; Reg-4 pseudo-label (optional exploratory)",4 (+1),Paired on identical splits
+Exp1 real Pima,model,"LR; RF-default (primary); RF-regularised; HGB; SVM-RBF",5,Fixed untuned settings
+Exp1 real Pima,split,"stratified random 80/20 (614/154) from SeedSequence.spawn",100,Same splits for all regimes and models
+Exp1 real Pima,evaluation,"App (regime rule); Dep (label-free training medians)",2,Same fitted model
+Exp1 real Pima,total pipelines,"4 x 5 x 100 (+ 500 for Reg-4)",2000 (+500),Per-row predictions saved for App and Dep
+Exp1 negative control B,subset,"complete-case rows (no impossible zeros)",1,All regimes must coincide exactly
+Exp2 canary,regime x model,"4 regimes x 5 models",20,
+Exp2 canary,splits used,"10 of the 100 splits",10,
+Exp2 canary,label permutations,"global permutation before regime applied",100,Flag if mean permuted AUC > mu0 + 2 sigma0 of Reg-0
+Exp2 canary,total fits (real data),"20 x 10 x 100",20000,Plus a reduced simulation subset
+Exp3 diagnostics,derived,"permutation importance (10 shuffles x 8 features); calibration intercept/slope; LAS",0 new fits,From Exp1 predictions
+Exp4 simulation,missing fraction pi,"0; 0.10; 0.25; 0.50; 0.75",5,pi = 0 is negative control A
+Exp4 simulation,mechanism,"MCAR; mild outcome-dependent MNAR (OR 1.5)",2,
+Exp4 simulation,oracle AUC,"0.70; 0.80; 0.90",3,Calibrated by auxiliary large sample
+Exp4 simulation,n,"768; 5000",2,
+Exp4 simulation,regime,"Reg-0..3",4,
+Exp4 simulation,model,"LR; RF-default; HGB",3,Plus RF depth sweep {2;4;8;None} at n=768 MCAR pi=0.5
+Exp4 simulation,replicates,"independent synthetic datasets per cell",50,
+Exp4 simulation,total pipelines,"5 x 2 x 3 x 2 x 4 x 3 x 50",36000,Plus RF sweep; trim replicates if over budget
+Exp4 simulation,truth sample,"fresh test sample from same generator",20000,Deployment AUC and oracle AUC
+Exp5 replication,pipelines,"three published pipelines as described",conditional,After user reports full-text details
