@@ -1,0 +1,252 @@
+{
+ "hypclass": {
+  "doi": "10.48550/arxiv.2603.15821",
+  "title": "Hypothesis Class Determines Explanation: Why Accurate Models Disagree on Feature Attribution",
+  "authors": [
+   "Thackshanaramana B"
+  ],
+  "n_authors": 1,
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "abstract": "The assumption that prediction-equivalent models produce equivalent explanations underlies many practices in explainable AI, including model selection, auditing, and regulatory evaluation. In this work, we show that this assumption does not hold. Through a large-scale empirical study across 24 datasets and multiple model classes, we find that models with identical predictive behavior can produce substantially different feature attributions. This disagreement is highly structured: models within the same hypothesis class exhibit strong agreement, while cross-class pairs (e.g., tree-based vs. linear) trained on identical data splits show substantially reduced agreement, consistently near or below the lottery threshold. We identify hypothesis class as the structural driver of this phenomenon, which we term the Explanation Lottery. We theoretically show that the resulting Agreement Gap persists under interaction structure in the data-generating process. This structural finding motivates a post-hoc diagnostic, the Explanation Reliability Score R(x), which predicts when explanations are stable across architectures without additional training. Our results demonstrate that model selection is not explanation-neutral: the hypothesis class chosen for deployment can determine which features are attributed responsibility for a decision.",
+  "abstract_source": "openalex",
+  "crossref_ok": false
+ },
+ "attrimp": {
+  "doi": "10.5281/zenodo.19468379",
+  "title": "The Attribution Impossibility: No Feature Ranking Is Faithful, Stable, and Complete Under Collinearity",
+  "authors": [
+   "Drake Caraker",
+   "Bryan Arnold",
+   "David Rhoads"
+  ],
+  "n_authors": 3,
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "abstract": "Faithful, Stable, Complete: Pick Two SHAP feature importance rankings—the most widely used method for explaining machine learning predictions—vary under model retraining. Across 77 public datasets, the identity of the \"most important feature\" changes with the random seed in 68% of cases. We demonstrate that this behavior is not incidental, but a consequence of a fundamental mathematical limitation. Theorem No feature ranking method can simultaneously satisfy all three of the following properties: Faithfulness (accurately reflects the model), Stability (robust to retraining), and Completeness (produces a total ranking over all features), in the presence of collinearity. The proof is four lines. It relies solely on the Rashomon property: that collinear feature designs admit multiple predictive models that induce opposing feature rankings. No domain-specific assumptions are required. Formalization 305 type-checked theorems Derived from 16 axioms Zero \"sorry\" statements across 54 Lean 4 files To our knowledge, this constitutes the first formally verified impossibility result in explainable AI. The formalization process identified two logical inconsistencies that were not detected during informal analysis. Contents Core impossibility result with zero axiom dependencies (Trilemma.lean) Architecture-dependent bounds: GBDT: Diverges as 1/(1−ρ²) The dominant feature gets proportionally more signal as correlation increases Lasso: Infinite One feature captures all attribution, the other gets exactly zero Neural networks: Conditional Depends on which feature the network \"captures\" during initialization; the captured feature dominates Random forests: Converges as O(1/√T) Parallel tree construction bounds the violation, making RF the contrast case where instability diminishes with ensemble size Complete characterization of the design space: exactly two admissible families of methods (no third alternative) DASH (Diversified Aggregation of SHAP): a provably Pareto-optimal approach achieving the Cramér–Rao variance bound Symmetric Bayes Dichotomy: a general proof technique applicable to feature attribution, model selection, and causal discovery Extensions: Conditional SHAP impossibility Fairness audit impossibility Fisher information connection Query complexity bounds Exact flip-rate expressions Axiom consistency established via explicit Fin 4 construction A 66-page monograph and 51 experimental scripts spanning 77 datasets Implications for Practitioners Instead of relying on a single trained model, we recommend training multiple models and aggregating SHAP values. DASH corresponds to averaging across 25 independently trained models and is provably optimal under the stated criteria. A single-model diagnostic identifies unreliable feature pairs (94% precision) A Z-test detects instability with as few as 5 models An ensemble size formula provides a principled stopping criterion Implications for Regulators SHAP-based proxy discrimination audits derived from a single trained model are not reliable under collinearity. Audit conclusions may vary substantially across training runs, potentially leading to inconsistent outcomes. Associated Paper First-Mover Bias in Gradient Boosting Explanations: Mechanism, Detection, and Resolution Drake Caraker, Bryan Arnold, David Rhoads https://arxiv.org/abs/2603.22346 https://doi.org/10.5281/zenodo.19446088 Companion implementation: https://github.com/DrakeCaraker/dash-shap",
+  "abstract_source": "openalex",
+  "crossref_ok": false
+ },
+ "stablerank": {
+  "doi": "10.1016/j.nxmate.2026.103038",
+  "title": "Stable rankings, unstable shortlists: A cross-algorithm stability audit of SHAP feature attributions in composition-based band gap prediction",
+  "authors": [
+   "Rahman W"
+  ],
+  "n_authors": 1,
+  "year": 2026,
+  "venue": "Next Materials",
+  "type": "journal-article",
+  "abstract": "Shapley additive explanation (SHAP) values are the standard tool in materials informatics for ranking the compositional descriptors that govern a predicted property, and the resulting shortlist of top descriptors is routinely read as physical insight, yet its reproducibility across ordinary modelling choices is rarely tested. This communication audits the stability of global SHAP rankings for composition-based prediction of the experimental band gap, using the 4604-entry matbench_expt_gap dataset, 132 Magpie descriptors, and three tree-ensemble algorithms trained under repeated five-fold cross-validation across three random seeds, giving forty-five fitted models. The complete descriptor ranking is highly reproducible within an algorithm, with mean Spearman correlations of 0.88–0.96, but the truncated top-ten shortlist that is typically reported overlaps by only 0.60–0.65 within an algorithm and 0.13–0.27 across algorithms. Only the mean p-valence electron count is among the ten most important descriptors in every run; the consensus set shrinks from five descriptors at a fifty percent agreement threshold to one at eighty percent. A correlation analysis of the full descriptor matrix shows a plausible source of this instability: the 132 nominal descriptors carry the effective information content of roughly 27–36 independent dimensions, so statistically redundant descriptors substitute for one another across resamples. Extending the protocol to a ridge-regularised linear model and to a second, unrelated property, yield strength, shows that the instability is neither specific to tree-based SHAP nor to the band gap. Single-run descriptor-importance claims are therefore fragile, a cross-algorithm, cross-resample consensus reported with its uncertainty and threshold sensitivity should be used in their place, and a minimum reporting standard is proposed.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "rashomon_jbhi": {
+  "doi": "10.1109/jbhi.2024.3443069",
+  "title": "Exploration of the Rashomon Set Assists Trustworthy Explanations for Medical Data",
+  "authors": [
+   "Kobylińska K",
+   "Krzyziński M",
+   "Machowicz R",
+   "Adamek M",
+   "Biecek P"
+  ],
+  "n_authors": 5,
+  "year": 2024,
+  "venue": "IEEE Journal of Biomedical and Health Informatics",
+  "type": "journal-article",
+  "abstract": "The machine learning modeling process conventionally results in selecting a single model that maximizes a selected performance metric. However, this approach leads to abandoning a more profound analysis of slightly inferior models. Particularly in medical and healthcare studies, where the objective extends beyond predictions to generation of valuable insights, relying solely on a single model can result in misleading or incomplete conclusions. This problem is particularly pertinent when dealing with a set of models known asRashomon set, with performance close to maximum one. Such a set can be numerous and may contain models describing the data in a different way, which calls for comprehensive analysis. This paper introduces a novel method to explore models in the Rashomon set, extending the conventional modeling approach. We propose theRashomon_DETECTalgorithm to detect models with different behavior. It is based on recent developments in the eXplainable Artificial Intelligence (XAI) field. To quantify differences in variable effects among models, we introduce the Profile Disparity Index (PDI) based on measures from functional data analysis. To illustrate the effectiveness of our approach, we showcase its application on real-world medical problem: predicting survival among hemophagocytic lymphohistiocytosis (HLH) patients – a foundational case study. Additionally, we benchmark our approach on other medical data sets, demonstrating its versatility and utility in various contexts. If differently behaving models are detected in the Rashomon set, their combined analysis leads to more trustworthy conclusions, which is of vital importance for high-stakes applications such as medical applications.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "multiplicity_aaai": {
+  "doi": "10.1609/aaai.v37i9.26227",
+  "title": "Predictive Multiplicity in Probabilistic Classification",
+  "authors": [
+   "Watson-Daniels J",
+   "Parkes D",
+   "Ustun B"
+  ],
+  "n_authors": 3,
+  "year": 2023,
+  "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+  "type": "journal-article",
+  "abstract": "Machine learning models are often used to inform real world risk assessment tasks: predicting consumer default risk, predicting whether a person suffers from a serious illness, or predicting a person's risk to appear in court. Given multiple models that perform almost equally well for a prediction task, to what extent do predictions vary across these models? If predictions are relatively consistent for similar models, then the standard approach of choosing the model that optimizes a penalized loss suffices. But what if predictions vary significantly for similar models? In machine learning, this is referred to as predictive multiplicity i.e. the prevalence of conflicting predictions assigned by near-optimal competing models. In this paper, we present a framework for measuring predictive multiplicity in probabilistic classification (predicting the probability of a positive outcome). We introduce measures that capture the variation in risk estimates over the set of competing models, and develop optimization-based methods to compute these measures efficiently and reliably for convex empirical risk minimization problems. We demonstrate the incidence and prevalence of predictive multiplicity in real-world tasks. Further, we provide insight into how predictive multiplicity arises by analyzing the relationship between predictive multiplicity and data set characteristics (outliers, separability, and majority-minority structure). Our results emphasize the need to report predictive multiplicity more widely.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "intervalshap": {
+  "doi": "10.48550/arxiv.2610.11953",
+  "title": "Interval-valued SHAP in Tree-Based Models",
+  "authors": [
+   "Chenrui Zhu",
+   "Vu-Linh Nguyen",
+   "Marie-Hélène Masson",
+   "Sébastien Destercke"
+  ],
+  "n_authors": 4,
+  "year": 2026,
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "abstract": "Shapley values are among the most popular feature-attribution explanations. Efficient approaches for computing/estimating Shapley values for tree-based models, which are state-of-the-art for tabular data sets, have been developed. However, it is known that Shapley values can be (highly) unrobust due to small and realistic changes. In this paper, we propose an imprecise Dirichlet model (IDM) based method to analyze the robustness of Shapley values in decision trees and random forests. Technically, it is done by quantifying and analyzing the interval-valued Shapley values when a few unannotated instances are randomly introduced to the leaves of the trees. The interval-valued Shapley values can be defined following common principles in handling incomplete data: the pessimistic and averaging principles. We derive various theoretical results that lead to efficient computation of the interval-valued Shapley values. We also show that the proposed method can be straightforwardly generalized to the case of Banzhaf values. We then present various case studies and experiments to illustrate the behaviour of the proposed interval-valued Shapley values and their applications in debiasing uninformative features.",
+  "abstract_source": "openalex",
+  "crossref_ok": false
+ },
+ "uncert_afa": {
+  "doi": "10.48550/arxiv.2311.17446",
+  "title": "Uncertainty in Additive Feature Attribution methods",
+  "authors": [
+   "Abhishek Madaan",
+   "Tanya Chowdhury",
+   "Neha Rana",
+   "James Allan",
+   "Tanmoy Chakraborty"
+  ],
+  "n_authors": 5,
+  "year": 2023,
+  "venue": "arXiv (Cornell University)",
+  "type": "preprint",
+  "abstract": "In this work, we explore various topics that fall under the umbrella of Uncertainty in post-hoc Explainable AI (XAI) methods. We in particular focus on the class of additive feature attribution explanation methods. We first describe our specifications of uncertainty and compare various statistical and recent methods to quantify the same. Next, for a particular instance, we study the relationship between a feature's attribution and its uncertainty and observe little correlation. As a result, we propose a modification in the distribution from which perturbations are sampled in LIME-based algorithms such that the important features have minimal uncertainty without an increase in computational cost. Next, while studying how the uncertainty in explanations varies across the feature space of a classifier, we observe that a fraction of instances show near-zero uncertainty. We coin the term \"stable instances\" for such instances and diagnose factors that make an instance stable. Next, we study how an XAI algorithm's uncertainty varies with the size and complexity of the underlying model. We observe that the more complex the model, the more inherent uncertainty is exhibited by it. As a result, we propose a measure to quantify the relative complexity of a blackbox classifier. This could be incorporated, for example, in LIME-based algorithms' sampling densities, to help different explanation algorithms achieve tighter confidence levels. Together, the above measures would have a strong impact on making XAI models relatively trustworthy for the end-user as well as aiding scientific discovery.",
+  "abstract_source": "openalex",
+  "crossref_ok": false
+ },
+ "sisk2023": {
+  "doi": "10.1177/09622802231165001",
+  "title": "Imputation and missing indicators for handling missing data in the development and deployment of clinical prediction models: A simulation study",
+  "authors": [
+   "Sisk R",
+   "Sperrin M",
+   "Peek N",
+   "van Smeden M",
+   "Martin G"
+  ],
+  "n_authors": 5,
+  "year": 2023,
+  "venue": "Statistical Methods in Medical Research",
+  "type": "journal-article",
+  "abstract": "Background: In clinical prediction modelling, missing data can occur at any stage of the model pipeline; development, validation or deployment. Multiple imputation is often recommended yet challenging to apply at deployment; for example, the outcome cannot be in the imputation model, as recommended under multiple imputation. Regression imputation uses a fitted model to impute the predicted value of missing predictors from observed data, and could offer a pragmatic alternative at deployment. Moreover, the use of missing indicators has been proposed to handle informative missingness, but it is currently unknown how well this method performs in the context of clinical prediction models. Methods: We simulated data under various missing data mechanisms to compare the predictive performance of clinical prediction models developed using both imputation methods. We consider deployment scenarios where missing data is permitted or prohibited, imputation models that use or omit the outcome, and clinical prediction models that include or omit missing indicators. We assume that the missingness mechanism remains constant across the model pipeline. We also apply the proposed strategies to critical care data. Results: With complete data available at deployment, our findings were in line with existing recommendations; that the outcome should be used to impute development data when using multiple imputation and omitted under regression imputation. When missingness is allowed at deployment, omitting the outcome from the imputation model at the development was preferred. Missing indicators improved model performance in many cases but can be harmful under outcome-dependent missingness. Conclusion: We provide evidence that commonly taught principles of handling missing data via multiple imputation may not apply to clinical prediction models, particularly when data can be missing at deployment. We observed comparable predictive performance under multiple imputation and regression imputation. The performance of the missing data handling method must be evaluated on a study-by-study basis, and the most appropriate strategy for handling missing data at development should consider whether missing data are allowed at deployment. Some guidance is provided.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "jce2024imp": {
+  "doi": "10.1016/j.jclinepi.2024.111539",
+  "title": "The performance of prognostic models depended on the choice of missing value imputation algorithm: a simulation study",
+  "authors": [
+   "Deforth M",
+   "Heinze G",
+   "Held U"
+  ],
+  "n_authors": 3,
+  "year": 2024,
+  "venue": "Journal of Clinical Epidemiology",
+  "type": "journal-article",
+  "abstract": "OBJECTIVES: The development of clinical prediction models is often impeded by the occurrence of missing values in the predictors. Various methods for imputing missing values before modeling have been proposed. Some of them are based on variants of multiple imputations by chained equations, while others are based on single imputation. These methods may include elements of flexible modeling or machine learning algorithms, and for some of them user-friendly software packages are available. The aim of this study was to investigate by simulation if some of these methods consistently outperform others in performance measures of clinical prediction models. STUDY DESIGN AND SETTING: We simulated development and validation cohorts by mimicking observed distributions of predictors and outcome variable of a real data set. In the development cohorts, missing predictor values were created in 36 scenarios defined by the missingness mechanism and proportion of noncomplete cases. We applied three imputation algorithms that were available in R software (R Foundation for Statistical Computing, Vienna, Austria): mice, aregImpute, and missForest. These algorithms differed in their use of linear or flexible models, or random forests, the way of sampling from the predictive posterior distribution, and the generation of a single or multiple imputed data set. For multiple imputation, we also investigated the impact of the number of imputations. Logistic regression models were fitted with the simulated development cohorts before (full data analysis) and after missing value generation (complete case analysis), and with the imputed data. Prognostic model performance was measured by the scaled Brier score, c-statistic, calibration intercept and slope, and by the mean absolute prediction error evaluated in validation cohorts without missing values. Performance of full data analysis was considered as ideal. RESULTS: None of the imputation methods achieved the model's predictive accuracy that would be obtained in case of no missingness. In general, complete case analysis yielded the worst performance, and deviation from ideal performance increased with increasing percentage of missingness and decreasing sample size. Across all scenarios and performance measures, aregImpute and mice, both with 100 imputations, resulted in highest predictive accuracy. Surprisingly, aregImpute outperformed full data analysis in achieving calibration slopes very close to one across all scenarios and outcome models. The increase of mice's performance with 100 compared to five imputations was only marginal. The differences between the imputation methods decreased with increasing sample sizes and decreasing proportion of noncomplete cases. CONCLUSION: In our simulation study, model calibration was more affected by the choice of the imputation method than model discrimination. While differences in model performance after using imputation methods were generally small, multiple imputation methods as mice and aregImpute that can handle linear or nonlinear associations between predictors and outcome are an attractive and reliable choice in most situations.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "sim2025": {
+  "doi": "10.1002/sim.70203",
+  "title": "Combining Missing Data Imputation and Internal Validation in Clinical Risk Prediction Models",
+  "authors": [
+   "Mi J",
+   "Tendulkar R",
+   "Sittenfeld S",
+   "Patil S",
+   "Zabor E"
+  ],
+  "n_authors": 5,
+  "year": 2025,
+  "venue": "Statistics in Medicine",
+  "type": "journal-article",
+  "abstract": "ABSTRACT Methods to handle missing data have been extensively explored in the context of estimation and descriptive studies, with multiple imputation being the most widely used method in clinical research. However, in the context of clinical risk prediction models, where the goal is often to achieve high prediction accuracy and to make predictions for future patients, there are different considerations regarding the handling of missing covariate data. As a result, deterministic imputation is better suited to the setting of clinical risk prediction models, since the outcome is not included in the imputation model and the imputation method can be easily applied to future patients. In this paper, we provide a tutorial demonstrating how to conduct bootstrapping followed by deterministic imputation of missing covariate data to construct and internally validate the performance of a clinical risk prediction model in the presence of missing data. Simulation study results are provided to help guide when imputation may be appropriate in real‐world applications.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "sperrin2020": {
+  "doi": "10.1016/j.jclinepi.2020.03.028",
+  "title": "Missing data should be handled differently for prediction than for description or causal explanation",
+  "authors": [
+   "Sperrin M",
+   "Martin G",
+   "Sisk R",
+   "Peek N"
+  ],
+  "n_authors": 4,
+  "year": 2020,
+  "venue": "Journal of Clinical Epidemiology",
+  "type": "journal-article",
+  "abstract": "Missing data is much studied in epidemiology and statistics. Theoretical development and application of methods for handling missing data have mostly been conducted in the context of prospective research data, and with a goal of description or causal explanation. However, it is now common to build predictive models using routinely collected data, where missing patterns may convey important information, and one might take a pragmatic approach to optimising prediction. Therefore, different methods to handle missing data may be preferred. Furthermore, an underappreciated issue in prediction modelling is that the missing data method used in model development may not match the method used when a model is deployed. This may lead to over-optimistic assessments of model performance.",
+  "abstract_source": "semanticscholar",
+  "crossref_ok": true
+ },
+ "bremen2026": {
+  "doi": "10.26092/elib/6231",
+  "title": "Missing Data in Machine Learning -- Tree-based generative imputation, uncertainty in explanation and data augmentation in healthcare application",
+  "authors": [
+   "Pegah Golchian"
+  ],
+  "n_authors": 1,
+  "year": 2026,
+  "venue": "Media (https://www.suub.uni-bremen.de/)",
+  "type": "dissertation",
+  "abstract": "Healthcare datasets are often affected by missing data and data scarcity, which require careful handling to ensure reliable analysis. Missing data is typically addressed with imputation methods, which fill the missing values with point estimates. The literature distinguishes between single imputation, which outputs one complete dataset and analyzes the dataset once, and multiple imputation, which outputs several imputed datasets, analyzes each dataset, and pools the results into a point estimate and a standard error. Novel imputation methods based on machine learning are usually only introduced for single imputation, which is convenient but does not account for imputation uncertainty as multiple imputation does. Data scarcity is usually addressed by data augmentation, for example, by synthesizing new data. Both missing data imputation and synthesizing data can be solved with generative models, which have recently seen great success in generating text and images. Most of the proposed methods, however, are deep-learning-based, which is not always the best approach for tabular data, which this work focuses on. Here, tree-based machine learning methods traditionally perform well, and there are also some generative models that offer promising solutions for data synthesis and density estimation, such as adversarial random forests (ARF). This thesis discusses handling missing values in a machine learning pipeline, from prediction to explanation. I examine the role of missing data, how it is addressed in machine learning models, and the effects of missing data on model explanations. I focus on the application of generative modeling in this field and connect imputation and generative modeling. My contribution to the field is a novel imputation method missing value imputation with adversarial random forests (MissARF), based on ARF, which offers competitive imputation performance in both single and multiple imputation at no additional computational cost in multiple imputation. Second, I discuss imputation uncertainty in post-hoc global explanations and show that only multiple imputation achieves good coverage. Lastly, I examine a real data example from the field of geriatrics, where data is scarce, and the aim is to improve the predictive performance through data augmentation. I compare two approaches, synthesizing the data and combining the dataset with a related dataset with imputation.",
+  "abstract_source": "openalex",
+  "crossref_ok": false
+ },
+ "pima_leaksafe": {
+  "doi": "10.64252/3a8wqx36",
+  "title": "Diabetes Prediction on Pima Indian Dataset Using Machine Learning Techniques",
+  "authors": [
+   "Ali A",
+   "Galal G",
+   "Hassan H"
+  ],
+  "n_authors": 3,
+  "year": 2025,
+  "venue": "International Journal of Environmental Sciences",
+  "type": "journal-article",
+  "abstract": "Diabetes mellitus is a growing global health burden, and early prediction can support timely intervention. This study develops and evaluates a leakage-safe machine-learning pipeline for Type-2 diabetes prediction on the Pima Indians Diabetes Dataset (768 records). Clinically implausible zeros in Glucose, BloodPressure, SkinThickness, Insulin, and BMI are treated as missing and imputed with class-conditional medians. Pipelines include SelectKBest (ANOVA F-test) feature screening, standardization, optional PCA, and a diverse set of classifiers (Logistic Regression, SVM, KNN, Random Forest, Gradient Boosting, XGBoost, LightGBM, CatBoost). Model selection uses stratified 5-fold cross-validation with GridSearchCV, followed by metaheuristic hyperparameter tuning (Genetic Algorithm, Particle Swarm Optimization, Differential Evolution). Evaluation on a held-out test set reports accuracy and ROC-AUC, alongside precision, recall, and F1. Across models and optimizers, the best overall performance is achieved by Random Forest tuned with Differential Evolution, reaching ~0.897 test accuracy and ~0.956 ROC-AUC, with LightGBM and XGBoost close behind (~0.88–0.89 accuracy; ~0.95 AUC). Results indicate that tree-based ensembles, when carefully tuned and guarded against leakage, provide strong and stable generalization on tabular clinical data. We also provide model-agnostic explainability (SHAP) to highlight clinically intuitive drivers (e.g., glucose, pregnancies, age). The proposed, fully reproducible pipeline offers a practical foundation for clinical decision support and can be extended to larger and more diverse cohorts.",
+  "abstract_source": "crossref",
+  "crossref_ok": true
+ },
+ "knn_imp_bmcmrm": {
+  "doi": "10.1186/s12874-024-02324-0",
+  "title": "An automated approach to predict diabetic patients using KNN imputation and effective data mining techniques",
+  "authors": [
+   "Altamimi A",
+   "Alarfaj A",
+   "Umer M",
+   "Alabdulqader E",
+   "Alsubai S",
+   "Kim T"
+  ],
+  "n_authors": 7,
+  "year": 2024,
+  "venue": "BMC Medical Research Methodology",
+  "type": "journal-article",
+  "abstract": "Diabetes is thought to be the most common illness in underdeveloped nations. Early detection and competent medical care are crucial steps in reducing the effects of diabetes. Examining the signs associated with diabetes is one of the most effective ways to identify the condition. The problem of missing data is not very well investigated in existing works. In addition, existing studies on diabetes detection lack accuracy and robustness. The available datasets frequently contain missing information for the automated detection of diabetes, which might negatively impact machine learning model performance. This work suggests an automated diabetes prediction method that achieves high accuracy and effectively manages missing variables in order to address this problem. The proposed strategy employs a stacked ensemble voting classifier model with three machine learning models. and a KNN Imputer to handle missing values. Using the KNN imputer, the suggested model performs exceptionally well, with accuracy, precision, recall, F1 score, and MCC of 98.59%, 99.26%, 99.75%, 99.45%, and 99.24%, respectively. In two scenarios one with missing values eliminated and the other with KNN imputer, the study thoroughly compared the suggested model with seven other machine learning techniques. The outcomes demonstrate the superiority of the suggested model over current state-of-the-art methods and confirm its efficacy. This work demonstrates the capability of KNN imputer and looks at the problem of missing values for diabetes detection. Medical professionals can utilize the results to improve care for diabetes patients and discover problems early.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ },
+ "reportmethods2012": {
+  "doi": "10.1371/journal.pmed.1001221",
+  "title": "Reporting and Methods in Clinical Prediction Research: A Systematic Review",
+  "authors": [
+   "Bouwmeester W",
+   "Zuithoff N",
+   "Mallett S",
+   "Geerlings M",
+   "Vergouwe Y",
+   "Steyerberg E"
+  ],
+  "n_authors": 8,
+  "year": 2012,
+  "venue": "PLoS Medicine",
+  "type": "journal-article",
+  "abstract": "BACKGROUND: We investigated the reporting and methods of prediction studies, focusing on aims, designs, participant selection, outcomes, predictors, statistical power, statistical methods, and predictive performance measures. METHODS AND FINDINGS: We used a full hand search to identify all prediction studies published in 2008 in six high impact general medical journals. We developed a comprehensive item list to systematically score conduct and reporting of the studies, based on recent recommendations for prediction research. Two reviewers independently scored the studies. We retrieved 71 papers for full text review: 51 were predictor finding studies, 14 were prediction model development studies, three addressed an external validation of a previously developed model, and three reported on a model's impact on participant outcome. Study design was unclear in 15% of studies, and a prospective cohort was used in most studies (60%). Descriptions of the participants and definitions of predictor and outcome were generally good. Despite many recommendations against doing so, continuous predictors were often dichotomized (32% of studies). The number of events per predictor as a measure of statistical power could not be determined in 67% of the studies; of the remainder, 53% had fewer than the commonly recommended value of ten events per predictor. Methods for a priori selection of candidate predictors were described in most studies (68%). A substantial number of studies relied on a p-value cut-off of p<0.05 to select predictors in the multivariable analyses (29%). Predictive model performance measures, i.e., calibration and discrimination, were reported in 12% and 27% of studies, respectively. CONCLUSIONS: The majority of prediction studies in high impact journals do not follow current methodological recommendations, limiting their reliability and applicability.",
+  "abstract_source": "openalex",
+  "crossref_ok": true
+ }
+}

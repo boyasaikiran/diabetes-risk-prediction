@@ -1,0 +1,91 @@
+{
+ "n_train": 614,
+ "missingness_train": {
+  "Glucose": {
+   "n_missing": 4,
+   "share_missing": 0.006514657980456026,
+   "pos_rate_missing": 0.5,
+   "pos_rate_observed": 0.3475409836065574,
+   "class_median_observed": {
+    "neg": 108.0,
+    "pos": 141.5
+   }
+  },
+  "BloodPressure": {
+   "n_missing": 23,
+   "share_missing": 0.03745928338762215,
+   "pos_rate_missing": 0.4782608695652174,
+   "pos_rate_observed": 0.34348561759729274,
+   "class_median_observed": {
+    "neg": 70.0,
+    "pos": 76.0
+   }
+  },
+  "SkinThickness": {
+   "n_missing": 175,
+   "share_missing": 0.28501628664495116,
+   "pos_rate_missing": 0.38285714285714284,
+   "pos_rate_observed": 0.3348519362186788,
+   "class_median_observed": {
+    "neg": 27.0,
+    "pos": 33.0
+   }
+  },
+  "Insulin": {
+   "n_missing": 290,
+   "share_missing": 0.4723127035830619,
+   "pos_rate_missing": 0.3620689655172414,
+   "pos_rate_observed": 0.33641975308641975,
+   "class_median_observed": {
+    "neg": 100.0,
+    "pos": 168.0
+   }
+  },
+  "BMI": {
+   "n_missing": 9,
+   "share_missing": 0.014657980456026058,
+   "pos_rate_missing": 0.2222222222222222,
+   "pos_rate_observed": 0.3504132231404959,
+   "class_median_observed": {
+    "neg": 30.1,
+    "pos": 34.349999999999994
+   }
+  }
+ },
+ "train_pos_rate": 0.3485342019543974,
+ "cv_auc_mean_sd": {
+  "LR_valid_foldcontained_median": [
+   0.8418323181985973,
+   0.003222180123336323
+  ],
+  "LR_leaky_class_median_before_cv": [
+   0.8750198412698413,
+   0.0027263994128533023
+  ],
+  "LR_permuted_labels_valid": [
+   0.5009006090808417,
+   0.012705971801936217
+  ],
+  "LR_permuted_labels_leaky_imputation": [
+   0.5166351052048727,
+   0.02698324510944593
+  ],
+  "RF_valid_foldcontained_median": [
+   0.8398329641934291,
+   0.0020520268420782793
+  ],
+  "RF_leaky_class_median_before_cv": [
+   0.9380338685861941,
+   0.0026205383710640674
+  ],
+  "RF_permuted_labels_valid": [
+   0.4928056478405316,
+   0.02652403418789837
+  ],
+  "RF_permuted_labels_leaky_imputation": [
+   0.8573070321151717,
+   0.0069928617396765045
+  ]
+ },
+ "note": "EXPLORATORY PILOT on the training split only; 3 CV seeds (real labels), 5 label permutations; not for reporting; test split untouched."
+}
