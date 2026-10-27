@@ -14,7 +14,7 @@ def calibration_intercept_slope(y: np.ndarray, p: np.ndarray) -> tuple[float, fl
     """Logistic recalibration logit P(y=1) = a + b*logit(p). Ideal: a = 0, b = 1."""
     p = np.clip(np.asarray(p, float), 1e-6, 1 - 1e-6)
     z = np.log(p / (1 - p)).reshape(-1, 1)
-    lr = LogisticRegression(penalty=None, max_iter=1000).fit(z, y)
+    lr = LogisticRegression(C=np.inf, max_iter=1000).fit(z, y)  # unpenalised (replaces deprecated penalty=None)
     return float(lr.intercept_[0]), float(lr.coef_[0, 0])
 
 
