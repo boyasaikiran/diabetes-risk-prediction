@@ -52,3 +52,19 @@ def test_exp4_plumbing_and_negative_control_a():
     assert float(z.sub(z["Reg-0"], axis=0).abs().to_numpy().max()) < 1e-12      # negative control A
     assert {"E1_inflation_Reg-3_vs_Reg-0", "E2_gap_Reg-3", "E3_harm_Reg-3"} <= set(out["contrasts"]["contrast"])
     assert len(runs) == 2 * 3 * 4 * 2
+
+
+def test_frozen_sim_contrasts_n_defect_is_pinned_and_corrected_version_fixes_it():
+    """Pins the known labelling defect in the frozen summary code and checks the corrected recomputation."""
+    from leakage_study.analysis import sim_contrasts_correct
+
+    cfg = {"master_seed": 4, "pi": [0.5], "mechanism": ["MCAR"], "target_auc": [0.8], "n": [400, 500], "regimes": ["Reg-0", "Reg-1", "Reg-2", "Reg-3"],
+           "models": ["LR"], "reps": 3, "truth_n": 1000, "prevalence": 0.35, "n_jobs": 1}
+    out = run_exp4(CORR, cfg)
+    frozen, fixed = out["contrasts"], sim_contrasts_correct(out["runs"])
+    assert set(frozen["n"]) == {3}                       # defect: replicate count instead of dataset size
+    assert set(fixed["n"]) == {400, 500} and set(fixed["n_reps"]) == {3}
+    cols = ["cell", "pi", "mechanism", "target_auc", "model", "contrast", "mean", "sd", "lo", "hi"]
+    a = frozen[cols].sort_values(cols[:6]).reset_index(drop=True)
+    b = fixed[cols].sort_values(cols[:6]).reset_index(drop=True)
+    assert a.equals(b) or np.allclose(a[["mean", "sd", "lo", "hi"]].to_numpy(), b[["mean", "sd", "lo", "hi"]].to_numpy(), atol=1e-15)
