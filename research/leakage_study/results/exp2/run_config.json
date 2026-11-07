@@ -1,0 +1,24 @@
+{
+ "config": {
+  "master_seed": 20261027,
+  "n_splits_total": 100,
+  "n_splits_used": 10,
+  "test_size": 0.2,
+  "n_perm": 100,
+  "regimes": [
+   "Reg-0",
+   "Reg-1",
+   "Reg-2",
+   "Reg-3"
+  ],
+  "models": [
+   "LR",
+   "RF-default",
+   "RF-regularised",
+   "HGB",
+   "SVM-RBF"
+  ],
+  "n_jobs": 4
+ },
+ "config_file": "configs/exp2_canary.yaml"
+}
